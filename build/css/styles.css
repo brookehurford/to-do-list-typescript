@@ -1,0 +1,16 @@
+body {
+  background: peachpuff; }
+
+.box {
+  background: #d3d3d3;
+  height: 200px;
+  width: 200px;
+  border: 3px solid black;
+  padding: 40px 80px; }
+  .box .button {
+    font-weight: bold;
+    text-align: center;
+    background: red;
+    color: white; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3R5bGVzLmNzcyIsInNvdXJjZXMiOlsic3R5bGVzLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiJGdyYXkgOiAjZDNkM2QzO1xuXG5ib2R5IHtcbiAgYmFja2dyb3VuZDogcGVhY2hwdWZmO1xufVxuXG4uYm94IHtcbiAgYmFja2dyb3VuZDogJGdyYXk7XG4gIGhlaWdodDogMjAwcHg7XG4gIHdpZHRoOiAyMDBweDtcbiAgYm9yZGVyOiAzcHggc29saWQgYmxhY2s7XG4gIHBhZGRpbmc6IDQwcHggODBweDtcbiAgLmJ1dHRvbiB7XG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIGJhY2tncm91bmQ6IHJlZDtcbiAgICBjb2xvcjogd2hpdGU7XG4gIH1cbn1cbiJdLCJtYXBwaW5ncyI6IkFBRUEsSUFBSSxDQUFDO0VBQ0gsVUFBVSxFQUFFLFNBQVUsR0FDdkI7O0FBRUQsSUFBSSxDQUFDO0VBQ0gsVUFBVSxFQVBKLE9BQU87RUFRYixNQUFNLEVBQUUsS0FBTTtFQUNkLEtBQUssRUFBRSxLQUFNO0VBQ2IsTUFBTSxFQUFFLGVBQWdCO0VBQ3hCLE9BQU8sRUFBRSxTQUFVLEdBT3BCO0VBWkQsSUFBSSxDQU1GLE9BQU8sQ0FBQztJQUNOLFdBQVcsRUFBRSxJQUFLO0lBQ2xCLFVBQVUsRUFBRSxNQUFPO0lBQ25CLFVBQVUsRUFBRSxHQUFJO0lBQ2hCLEtBQUssRUFBRSxLQUFNLEdBQ2QiLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9 */

@@ -1,0 +1,19 @@
+$gray : #d3d3d3;
+
+body {
+  background: peachpuff;
+}
+
+.box {
+  background: $gray;
+  height: 200px;
+  width: 200px;
+  border: 3px solid black;
+  padding: 40px 80px;
+  .button {
+    font-weight: bold;
+    text-align: center;
+    background: red;
+    color: white;
+  }
+}

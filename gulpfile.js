@@ -19,6 +19,8 @@ var lib        = require('bower-files')({
   }
 });
 var browserSync = require('browser-sync').create();
+var sass = require('gulp-sass');
+var sourcemaps = require('gulp-sourcemaps');
 
 var buildProduction = utilities.env.production;
 
@@ -87,7 +89,7 @@ gulp.task('serve', function() {
   });
   gulp.watch(['js/*.js'], ['jsBuild']);
   gulp.watch(['bower.json'], ['bowerBuild']);
-  gulp.watch(['build/css/styles.css'], ['CSSBuild']);
+  gulp.watch("scss/*.scss", ['CSSBuild']);
   gulp.watch(['index.html'], ['HTMLBuild']);
 });
 
@@ -100,7 +102,12 @@ gulp.task('bowerBuild', ['bower'], function(){
 });
 
 gulp.task('CSSBuild', function() {
-  browserSync.reload();
+  return gulp.src('scss/*.scss')
+    .pipe(sourcemaps.init())
+    .pipe(sass())
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest('./build/css'))
+    .pipe(browserSync.stream());
 });
 
 gulp.task('HTMLBuild', function() {
