@@ -31,6 +31,7 @@ gulp.task("build", ['clean'], function() {
     gulp.start('jsBrowserify');
   }
   gulp.start('bower');
+  gulp.start('CSSBuild');
 });
 
 gulp.task('bower', ['bowerJS', 'bowerCSS']);
