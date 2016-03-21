@@ -31,3 +31,37 @@ console.log("Here are Thor's tasks: ");
 for(var task of thorTasks){
   console.log(task);
 }
+
+var homeTasks = ToDoList.listTasksByType("home", tasks);
+console.log("Here are the Home Tasks: ");
+for(var task of homeTasks){
+  console.log(task);
+}
+
+var workTasks = ToDoList.listTasksByType("work", tasks);
+console.log("Here are the Work Tasks: ");
+for(var task of workTasks){
+  console.log(task);
+}
+
+var hobbyTasks = ToDoList.listTasksByType("hobby", tasks);
+console.log("Here are the Hobby Tasks: ");
+for(var task of hobbyTasks){
+  console.log(task);
+}
+
+var lowTasks = ToDoList.listTasksByPriority("Low", tasks);
+console.log("Here are the Low Priority Tasks: ");
+for(var task of lowTasks){
+  console.log(task);
+}
+var mediumTasks = ToDoList.listTasksByPriority("Medium", tasks);
+console.log("Here are the Medium Priority Tasks: ");
+for(var task of mediumTasks){
+  console.log(task);
+}
+var highTasks = ToDoList.listTasksByPriority("High", tasks);
+console.log("Here are the High Priority Tasks: ");
+for(var task of highTasks){
+  console.log(task);
+}

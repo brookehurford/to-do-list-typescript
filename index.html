@@ -15,20 +15,24 @@
         <label for="task">Description</label>
         <input type="text"></input>
         <label for="priority">Type</label>
-        <select>
-          <option>Hobby</option>
-          <option>Work</option>
-          <option>Home</option>
+        <select class="tasks">
+          <option value="hobbyTask">Hobby</option>
+          <option value="workTask">Work</option>
+          <option value="homeTask">Home</option>
         </select>
         <label for="priority">Priority</label>
-        <select>
-          <option>Low</option>
-          <option>Medium</option>
-          <option>High</option>
+        <select class="priorities">
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
         </select>
         <label for="assignee">Assignee</label>
-        <input type="text"></input>
-        <button type="submit">Create Task</button>
+        <select class="people">
+          <option value="Diane">Diane</option>
+          <option value="Thor">Thor</option>
+          <option value="Loki">Loki</option>
+        </select>
+        <button id="submitBtn" type="submit">Create Task</button>
       </form>
       <div class="toDoList"></div>
     </div>
