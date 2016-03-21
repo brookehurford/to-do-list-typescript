@@ -10,7 +10,7 @@ module ToDoList {
   export interface IPerson {
     name: string;
     email: string;
-    phone?: string;
+    phone?: string; // optional phone number.
   }
 
   export class Task implements ITask {
@@ -28,13 +28,13 @@ module ToDoList {
   }
 
   export class WorkTask extends Task {
-    constructor(public description: string, public priority: string, public assignedTo?: IPerson){
+    constructor(public dueDate: Date, public description: string, public priority: string, public assignedTo: IPerson){
       super(description, priority, assignedTo);
     }
   }
 
   export class HobbyTask extends Task {
-    constructor(public description: string, public priority: string, public assignedTo?: IPerson){
+    constructor(public description: string){
       super(description, "low");
     }
   }

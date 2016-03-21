@@ -31,8 +31,9 @@ var ToDoList;
     ToDoList.HomeTask = HomeTask;
     var WorkTask = (function (_super) {
         __extends(WorkTask, _super);
-        function WorkTask(description, priority, assignedTo) {
+        function WorkTask(dueDate, description, priority, assignedTo) {
             _super.call(this, description, priority, assignedTo);
+            this.dueDate = dueDate;
             this.description = description;
             this.priority = priority;
             this.assignedTo = assignedTo;
@@ -42,11 +43,9 @@ var ToDoList;
     ToDoList.WorkTask = WorkTask;
     var HobbyTask = (function (_super) {
         __extends(HobbyTask, _super);
-        function HobbyTask(description, priority, assignedTo) {
+        function HobbyTask(description) {
             _super.call(this, description, "low");
             this.description = description;
-            this.priority = priority;
-            this.assignedTo = assignedTo;
         }
         return HobbyTask;
     }(Task));
@@ -88,20 +87,22 @@ var ToDoList;
         return descriptions;
     };
 })(ToDoList || (ToDoList = {}));
-/// <reference path="to-do-classes-interfaces.ts"/>
-/// <reference path="to-do-people.ts"/>
-/// <reference path="to-do-listing-functions.ts"/>
+/// <reference path="to-do-classes-interfaces.ts" />
+/// <reference path="to-do-people.ts" />
+/// <reference path="to-do-listing-functions.ts" />
 var people = ToDoList.people;
 var tasks = [];
 tasks.push(new ToDoList.HomeTask("Do the dishes.", "High"));
 tasks.push(new ToDoList.HomeTask("Buy chocolate.", "Low", people.diane));
 tasks.push(new ToDoList.HomeTask("Wash the laundry.", "High"));
+tasks[0].markDone();
 tasks.push(new ToDoList.HobbyTask("Practice origami."));
 tasks.push(new ToDoList.HobbyTask("Bake a pie."));
 var today = new Date();
 var tomorrow = new Date();
 tomorrow.setDate(today.getDate() + 1);
-var nextDay, setDate = (today.getDate() + 2);
+var nextDay = new Date();
+nextDay.setDate(today.getDate() + 2);
 tasks.push(new ToDoList.WorkTask(today, "Update blog.", "High", people.diane));
 tasks.push(new ToDoList.WorkTask(tomorrow, "Go to meeting.", "Medium", people.thor));
 tasks.push(new ToDoList.WorkTask(tomorrow, "Save the world.", "High", people.thor));
