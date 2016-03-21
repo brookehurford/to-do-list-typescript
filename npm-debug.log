@@ -1,0 +1,1899 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'atom-typescript' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.0
+4 verbose install initial load of /Users/swadmin/Desktop/node-template/package.json
+5 warn package.json template@1.0.0 No description
+6 warn package.json template@1.0.0 No repository field.
+7 warn package.json template@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from /Users/swadmin/Desktop/node-template/node_modules/bower-files/package.json
+9 verbose installManyTop reading scoped package data from /Users/swadmin/Desktop/node-template/node_modules/browser-sync/package.json
+10 verbose installManyTop reading scoped package data from /Users/swadmin/Desktop/node-template/node_modules/browserify/package.json
+11 verbose installManyTop reading scoped package data from /Users/swadmin/Desktop/node-template/node_modules/del/package.json
+12 verbose installManyTop reading scoped package data from /Users/swadmin/Desktop/node-template/node_modules/gulp/package.json
+13 verbose installManyTop reading scoped package data from /Users/swadmin/Desktop/node-template/node_modules/gulp-concat/package.json
+14 verbose installManyTop reading scoped package data from /Users/swadmin/Desktop/node-template/node_modules/gulp-jshint/package.json
+15 verbose installManyTop reading scoped package data from /Users/swadmin/Desktop/node-template/node_modules/gulp-sass/package.json
+16 verbose installManyTop reading scoped package data from /Users/swadmin/Desktop/node-template/node_modules/gulp-sourcemaps/package.json
+17 verbose installManyTop reading scoped package data from /Users/swadmin/Desktop/node-template/node_modules/gulp-uglify/package.json
+18 verbose installManyTop reading scoped package data from /Users/swadmin/Desktop/node-template/node_modules/gulp-util/package.json
+19 verbose installManyTop reading scoped package data from /Users/swadmin/Desktop/node-template/node_modules/jshint/package.json
+20 verbose installManyTop reading scoped package data from /Users/swadmin/Desktop/node-template/node_modules/prompt/package.json
+21 verbose installManyTop reading scoped package data from /Users/swadmin/Desktop/node-template/node_modules/vinyl-source-stream/package.json
+22 verbose readDependencies loading dependencies from /Users/swadmin/Desktop/node-template/package.json
+23 silly cache add args [ 'atom-typescript', null ]
+24 verbose cache add spec atom-typescript
+25 silly cache add parsed spec Result {
+25 silly cache add   raw: 'atom-typescript',
+25 silly cache add   scope: null,
+25 silly cache add   name: 'atom-typescript',
+25 silly cache add   rawSpec: '',
+25 silly cache add   spec: 'latest',
+25 silly cache add   type: 'tag' }
+26 silly addNamed atom-typescript@latest
+27 verbose addNamed "latest" is being treated as a dist-tag for atom-typescript
+28 info addNameTag [ 'atom-typescript', 'latest' ]
+29 silly mapToRegistry name atom-typescript
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/atom-typescript
+33 verbose addNameTag registry:https://registry.npmjs.org/atom-typescript not in flight; fetching
+34 verbose request uri https://registry.npmjs.org/atom-typescript
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 12:16:21 PM
+37 verbose request id fe74f988155abc30
+38 http request GET https://registry.npmjs.org/atom-typescript
+39 http 200 https://registry.npmjs.org/atom-typescript
+40 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 verbose headers   etag: '"7LVNJOOFR64ZRT5OFOP0G8MQ2"',
+40 verbose headers   'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=300',
+40 verbose headers   'content-length': '19830',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   date: 'Mon, 21 Mar 2016 19:16:22 GMT',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   age: '0',
+40 verbose headers   connection: 'keep-alive',
+40 verbose headers   'x-served-by': 'cache-sjc3132-SJC',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1458587782.139099,VS0,VE170',
+40 verbose headers   vary: 'Accept' }
+41 silly get cb [ 200,
+41 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+41 silly get     etag: '"7LVNJOOFR64ZRT5OFOP0G8MQ2"',
+41 silly get     'content-type': 'application/json',
+41 silly get     'cache-control': 'max-age=300',
+41 silly get     'content-length': '19830',
+41 silly get     'accept-ranges': 'bytes',
+41 silly get     date: 'Mon, 21 Mar 2016 19:16:22 GMT',
+41 silly get     via: '1.1 varnish',
+41 silly get     age: '0',
+41 silly get     connection: 'keep-alive',
+41 silly get     'x-served-by': 'cache-sjc3132-SJC',
+41 silly get     'x-cache': 'MISS',
+41 silly get     'x-cache-hits': '0',
+41 silly get     'x-timer': 'S1458587782.139099,VS0,VE170',
+41 silly get     vary: 'Accept' } ]
+42 verbose get saving atom-typescript to /Users/swadmin/.npm/registry.npmjs.org/atom-typescript/.cache.json
+43 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+44 silly addNameTag next cb for atom-typescript with tag latest
+45 silly addNamed atom-typescript@4.5.6
+46 verbose addNamed "4.5.6" is a plain semver version for atom-typescript
+47 silly mapToRegistry name atom-typescript
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry uri https://registry.npmjs.org/atom-typescript
+51 verbose addRemoteTarball https://registry.npmjs.org/atom-typescript/-/atom-typescript-4.5.6.tgz not in flight; adding
+52 verbose addRemoteTarball [ 'https://registry.npmjs.org/atom-typescript/-/atom-typescript-4.5.6.tgz',
+52 verbose addRemoteTarball   '91d8aeb146aeea141b20f19b64d68018f15d1ece' ]
+53 info retry fetch attempt 1 at 12:16:21 PM
+54 info attempt registry request try #1 at 12:16:21 PM
+55 http fetch GET https://registry.npmjs.org/atom-typescript/-/atom-typescript-4.5.6.tgz
+56 http fetch 200 https://registry.npmjs.org/atom-typescript/-/atom-typescript-4.5.6.tgz
+57 silly fetchAndShaCheck shasum 91d8aeb146aeea141b20f19b64d68018f15d1ece
+58 verbose addTmpTarball /var/folders/k6/5ykf99057j3bhmx8j3_yyjdw0000gn/T/npm-5205-ad6130c3/registry.npmjs.org/atom-typescript/-/atom-typescript-4.5.6.tgz not in flight; adding
+59 verbose addTmpTarball already have metadata; skipping unpack for atom-typescript@4.5.6
+60 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+61 silly cache afterAdd atom-typescript@4.5.6
+62 verbose afterAdd /Users/swadmin/.npm/atom-typescript/4.5.6/package/package.json not in flight; writing
+63 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+64 verbose afterAdd /Users/swadmin/.npm/atom-typescript/4.5.6/package/package.json written
+65 silly install resolved [ { name: 'atom-typescript',
+65 silly install resolved     version: '4.5.6',
+65 silly install resolved     main: './dist/main/atomts',
+65 silly install resolved     bin: { atbuild: './dist/main/bin/atbuild' },
+65 silly install resolved     preferGlobal: 'true',
+65 silly install resolved     description: 'The only TypeScript plugin you will ever need.',
+65 silly install resolved     engines: { atom: '>=0.199.0 <2.0.0', node: '*' },
+65 silly install resolved     'linter-package': true,
+65 silly install resolved     'linter-implementation': '../dist/linter',
+65 silly install resolved     providedServices: { 'autocomplete.provider': [Object] },
+65 silly install resolved     consumedServices: { snippets: [Object] },
+65 silly install resolved     homepage: 'http://atom.io/packages/atom-typescript',
+65 silly install resolved     repository:
+65 silly install resolved      { type: 'git',
+65 silly install resolved        url: 'git+https://github.com/TypeStrong/atom-typescript.git' },
+65 silly install resolved     license: 'MIT',
+65 silly install resolved     bugs: { url: 'https://github.com/TypeStrong/atom-typescript/issues' },
+65 silly install resolved     dependencies:
+65 silly install resolved      { emissary: '^1.3.3',
+65 silly install resolved        fuzzaldrin: '^2.1.0',
+65 silly install resolved        'glob-expand': '0.0.2',
+65 silly install resolved        mkdirp: '^0.5.0',
+65 silly install resolved        season: '^5.1.4',
+65 silly install resolved        typescript: 'https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78',
+65 silly install resolved        'escape-html': '^1.0.1',
+65 silly install resolved        'atom-space-pen-views': '^2.0.4',
+65 silly install resolved        'atom-package-dependencies': 'https://github.com/basarat/atom-package-dependencies/archive/cb1.tar.gz',
+65 silly install resolved        'basarat-text-buffer': '6.0.0',
+65 silly install resolved        d3: '^3.5.5' },
+65 silly install resolved     devDependencies: { grunt: '^0.4.5', 'grunt-ts': '^3.0.0' },
+65 silly install resolved     'package-dependencies': { linter: '//this field will be ignored right now' },
+65 silly install resolved     keywords: [ 'typescript', 'javascript', 'html' ],
+65 silly install resolved     gitHead: '8bd05fb88395a954821560299a64449f6be4cfb3',
+65 silly install resolved     _id: 'atom-typescript@4.5.6',
+65 silly install resolved     scripts: {},
+65 silly install resolved     _shasum: '91d8aeb146aeea141b20f19b64d68018f15d1ece',
+65 silly install resolved     _from: 'atom-typescript@latest',
+65 silly install resolved     _npmVersion: '2.11.0',
+65 silly install resolved     _nodeVersion: '2.2.1',
+65 silly install resolved     _npmUser: { name: 'basarat', email: 'basaratali@gmail.com' },
+65 silly install resolved     maintainers: [ [Object] ],
+65 silly install resolved     dist:
+65 silly install resolved      { shasum: '91d8aeb146aeea141b20f19b64d68018f15d1ece',
+65 silly install resolved        tarball: 'http://registry.npmjs.org/atom-typescript/-/atom-typescript-4.5.6.tgz' },
+65 silly install resolved     directories: {},
+65 silly install resolved     _resolved: 'https://registry.npmjs.org/atom-typescript/-/atom-typescript-4.5.6.tgz' } ]
+66 info install atom-typescript@4.5.6 into /Users/swadmin/Desktop/node-template
+67 info installOne atom-typescript@4.5.6
+68 verbose installOne of atom-typescript to /Users/swadmin/Desktop/node-template not in flight; installing
+69 verbose correctMkdir /Users/swadmin/.npm/_locks correctMkdir not in flight; initializing
+70 verbose lock using /Users/swadmin/.npm/_locks/atom-typescript-40fb3a5f97f9592c.lock for /Users/swadmin/Desktop/node-template/node_modules/atom-typescript
+71 silly install write writing atom-typescript 4.5.6 to /Users/swadmin/Desktop/node-template/node_modules/atom-typescript
+72 verbose unbuild node_modules/atom-typescript
+73 silly gentlyRm /Users/swadmin/Desktop/node-template/node_modules/atom-typescript is being purged from base /Users/swadmin/Desktop/node-template
+74 verbose gentlyRm don't care about contents; nuking /Users/swadmin/Desktop/node-template/node_modules/atom-typescript
+75 verbose tar unpack /Users/swadmin/.npm/atom-typescript/4.5.6/package.tgz
+76 verbose tar unpacking to /Users/swadmin/Desktop/node-template/node_modules/atom-typescript
+77 silly gentlyRm /Users/swadmin/Desktop/node-template/node_modules/atom-typescript is being purged
+78 verbose gentlyRm don't care about contents; nuking /Users/swadmin/Desktop/node-template/node_modules/atom-typescript
+79 silly gunzTarPerm modes [ '755', '644' ]
+80 silly gunzTarPerm extractEntry package.json
+81 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+82 silly gunzTarPerm extractEntry .npmignore
+83 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+84 silly gunzTarPerm extractEntry README.md
+85 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+86 silly gunzTarPerm extractEntry Gruntfile.js
+87 silly gunzTarPerm modified mode [ 'Gruntfile.js', 438, 420 ]
+88 silly gunzTarPerm extractEntry globals.js
+89 silly gunzTarPerm modified mode [ 'globals.js', 438, 420 ]
+90 silly gunzTarPerm extractEntry grammars/typescript.cson
+91 silly gunzTarPerm modified mode [ 'grammars/typescript.cson', 438, 420 ]
+92 silly gunzTarPerm extractEntry VSProj.njsproj
+93 silly gunzTarPerm modified mode [ 'VSProj.njsproj', 438, 420 ]
+94 silly gunzTarPerm extractEntry VSProj.sln
+95 silly gunzTarPerm modified mode [ 'VSProj.sln', 438, 420 ]
+96 silly gunzTarPerm extractEntry VSProj.v12.suo
+97 silly gunzTarPerm modified mode [ 'VSProj.v12.suo', 438, 420 ]
+98 silly gunzTarPerm extractEntry dist/.baseDir.js
+99 silly gunzTarPerm modified mode [ 'dist/.baseDir.js', 438, 420 ]
+100 silly gunzTarPerm extractEntry dist/globals.js
+101 silly gunzTarPerm modified mode [ 'dist/globals.js', 438, 420 ]
+102 silly gunzTarPerm extractEntry dist/linter.js
+103 silly gunzTarPerm modified mode [ 'dist/linter.js', 438, 420 ]
+104 silly gunzTarPerm extractEntry dist/main/atomts.js
+105 silly gunzTarPerm modified mode [ 'dist/main/atomts.js', 438, 420 ]
+106 silly gunzTarPerm extractEntry dist/main/atom/atomConfig.js
+107 silly gunzTarPerm modified mode [ 'dist/main/atom/atomConfig.js', 438, 420 ]
+108 silly gunzTarPerm extractEntry dist/main/atom/autoCompleteProvider.js
+109 silly gunzTarPerm modified mode [ 'dist/main/atom/autoCompleteProvider.js', 438, 420 ]
+110 silly gunzTarPerm extractEntry dist/main/atom/buildView.js
+111 silly gunzTarPerm modified mode [ 'dist/main/atom/buildView.js', 438, 420 ]
+112 silly gunzTarPerm extractEntry dist/main/atom/typescriptGrammar.js
+113 silly gunzTarPerm modified mode [ 'dist/main/atom/typescriptGrammar.js', 438, 420 ]
+114 silly gunzTarPerm extractEntry dist/main/atom/debugAtomTs.js
+115 silly gunzTarPerm modified mode [ 'dist/main/atom/debugAtomTs.js', 438, 420 ]
+116 silly gunzTarPerm extractEntry dist/main/atom/atomUtils.js
+117 silly gunzTarPerm modified mode [ 'dist/main/atom/atomUtils.js', 438, 420 ]
+118 silly gunzTarPerm extractEntry dist/main/atom/gotoHistory.js
+119 silly gunzTarPerm modified mode [ 'dist/main/atom/gotoHistory.js', 438, 420 ]
+120 silly gunzTarPerm extractEntry dist/main/atom/onSaveHandler.js
+121 silly gunzTarPerm modified mode [ 'dist/main/atom/onSaveHandler.js', 438, 420 ]
+122 silly gunzTarPerm extractEntry dist/main/atom/signatureProvider.js
+123 silly gunzTarPerm modified mode [ 'dist/main/atom/signatureProvider.js', 438, 420 ]
+124 silly gunzTarPerm extractEntry dist/main/atom/tooltipManager.js
+125 silly gunzTarPerm modified mode [ 'dist/main/atom/tooltipManager.js', 438, 420 ]
+126 silly gunzTarPerm extractEntry dist/main/atom/editorSetup.js
+127 silly gunzTarPerm modified mode [ 'dist/main/atom/editorSetup.js', 438, 420 ]
+128 silly gunzTarPerm extractEntry dist/main/atom/commands/commands.js
+129 silly gunzTarPerm modified mode [ 'dist/main/atom/commands/commands.js', 438, 420 ]
+130 silly gunzTarPerm extractEntry dist/main/atom/commands/moveFilesHandling.js
+131 silly gunzTarPerm modified mode [ 'dist/main/atom/commands/moveFilesHandling.js', 438, 420 ]
+132 silly gunzTarPerm extractEntry dist/main/atom/commands/outputFileCommands.js
+133 silly gunzTarPerm modified mode [ 'dist/main/atom/commands/outputFileCommands.js', 438, 420 ]
+134 silly gunzTarPerm extractEntry dist/main/atom/views/astView.js
+135 silly gunzTarPerm modified mode [ 'dist/main/atom/views/astView.js', 438, 420 ]
+136 silly gunzTarPerm extractEntry dist/main/atom/views/documentationView.js
+137 silly gunzTarPerm modified mode [ 'dist/main/atom/views/documentationView.js', 438, 420 ]
+138 silly gunzTarPerm extractEntry dist/main/atom/views/fileSemanticView.js
+139 silly gunzTarPerm modified mode [ 'dist/main/atom/views/fileSemanticView.js', 438, 420 ]
+140 silly gunzTarPerm extractEntry dist/main/atom/views/fileSymbolsView.js
+141 silly gunzTarPerm modified mode [ 'dist/main/atom/views/fileSymbolsView.js', 438, 420 ]
+142 silly gunzTarPerm extractEntry dist/main/atom/views/lineMessageView.js
+143 silly gunzTarPerm modified mode [ 'dist/main/atom/views/lineMessageView.js', 438, 420 ]
+144 silly gunzTarPerm extractEntry dist/main/atom/views/dependencyView.js
+145 silly gunzTarPerm modified mode [ 'dist/main/atom/views/dependencyView.js', 438, 420 ]
+146 silly gunzTarPerm extractEntry dist/main/atom/views/plainMessageView.js
+147 silly gunzTarPerm modified mode [ 'dist/main/atom/views/plainMessageView.js', 438, 420 ]
+148 silly gunzTarPerm extractEntry dist/main/atom/views/projectSymbolsView.js
+149 silly gunzTarPerm modified mode [ 'dist/main/atom/views/projectSymbolsView.js', 438, 420 ]
+150 silly gunzTarPerm extractEntry dist/main/atom/views/renameView.js
+151 silly gunzTarPerm modified mode [ 'dist/main/atom/views/renameView.js', 438, 420 ]
+152 silly gunzTarPerm extractEntry dist/main/atom/views/simpleOverlaySelectionView.js
+153 silly gunzTarPerm modified mode [ 'dist/main/atom/views/simpleOverlaySelectionView.js',
+153 silly gunzTarPerm   438,
+153 silly gunzTarPerm   420 ]
+154 silly gunzTarPerm extractEntry dist/main/atom/views/simpleSelectionView.js
+155 silly gunzTarPerm modified mode [ 'dist/main/atom/views/simpleSelectionView.js', 438, 420 ]
+156 silly gunzTarPerm extractEntry dist/main/atom/views/contextView.js
+157 silly gunzTarPerm modified mode [ 'dist/main/atom/views/contextView.js', 438, 420 ]
+158 silly gunzTarPerm extractEntry dist/main/atom/views/tooltipView.js
+159 silly gunzTarPerm modified mode [ 'dist/main/atom/views/tooltipView.js', 438, 420 ]
+160 silly gunzTarPerm extractEntry dist/main/atom/views/awesomePanelView.js
+161 silly gunzTarPerm modified mode [ 'dist/main/atom/views/awesomePanelView.js', 438, 420 ]
+162 silly gunzTarPerm extractEntry dist/main/atom/views/view.js
+163 silly gunzTarPerm modified mode [ 'dist/main/atom/views/view.js', 438, 420 ]
+164 silly gunzTarPerm extractEntry dist/main/atom/views/mainPanelView.js
+165 silly gunzTarPerm modified mode [ 'dist/main/atom/views/mainPanelView.js', 438, 420 ]
+166 silly gunzTarPerm extractEntry dist/main/bin/atbuild.js
+167 silly gunzTarPerm modified mode [ 'dist/main/bin/atbuild.js', 438, 420 ]
+168 silly gunzTarPerm extractEntry dist/main/bin/atbuild
+169 silly gunzTarPerm modified mode [ 'dist/main/bin/atbuild', 438, 420 ]
+170 silly gunzTarPerm extractEntry dist/main/lang/projectCache.js
+171 silly gunzTarPerm modified mode [ 'dist/main/lang/projectCache.js', 438, 420 ]
+172 silly gunzTarPerm extractEntry dist/main/lang/projectService.js
+173 silly gunzTarPerm modified mode [ 'dist/main/lang/projectService.js', 438, 420 ]
+174 silly gunzTarPerm extractEntry dist/main/lang/utils.js
+175 silly gunzTarPerm modified mode [ 'dist/main/lang/utils.js', 438, 420 ]
+176 silly gunzTarPerm extractEntry dist/main/lang/core/languageServiceHost2.js
+177 silly gunzTarPerm modified mode [ 'dist/main/lang/core/languageServiceHost2.js', 438, 420 ]
+178 silly gunzTarPerm extractEntry dist/main/lang/core/project.js
+179 silly gunzTarPerm modified mode [ 'dist/main/lang/core/project.js', 438, 420 ]
+180 silly gunzTarPerm extractEntry dist/main/lang/fixmyts/astUtils.js
+181 silly gunzTarPerm modified mode [ 'dist/main/lang/fixmyts/astUtils.js', 438, 420 ]
+182 silly gunzTarPerm extractEntry dist/main/lang/fixmyts/quickFix.js
+183 silly gunzTarPerm modified mode [ 'dist/main/lang/fixmyts/quickFix.js', 438, 420 ]
+184 silly gunzTarPerm extractEntry dist/main/lang/fixmyts/quickFixRegistry.js
+185 silly gunzTarPerm modified mode [ 'dist/main/lang/fixmyts/quickFixRegistry.js', 438, 420 ]
+186 silly gunzTarPerm extractEntry dist/main/lang/fixmyts/quickFixes/addClassMember.js
+187 silly gunzTarPerm modified mode [ 'dist/main/lang/fixmyts/quickFixes/addClassMember.js',
+187 silly gunzTarPerm   438,
+187 silly gunzTarPerm   420 ]
+188 silly gunzTarPerm extractEntry dist/main/lang/fixmyts/quickFixes/addImportStatement.js
+189 silly gunzTarPerm modified mode [ 'dist/main/lang/fixmyts/quickFixes/addImportStatement.js',
+189 silly gunzTarPerm   438,
+189 silly gunzTarPerm   420 ]
+190 silly gunzTarPerm extractEntry dist/main/lang/fixmyts/quickFixes/equalsToEquals.js
+191 silly gunzTarPerm modified mode [ 'dist/main/lang/fixmyts/quickFixes/equalsToEquals.js',
+191 silly gunzTarPerm   438,
+191 silly gunzTarPerm   420 ]
+192 silly gunzTarPerm extractEntry dist/main/lang/fixmyts/quickFixes/implementInterface.js
+193 silly gunzTarPerm modified mode [ 'dist/main/lang/fixmyts/quickFixes/implementInterface.js',
+193 silly gunzTarPerm   438,
+193 silly gunzTarPerm   420 ]
+194 silly gunzTarPerm extractEntry dist/main/lang/fixmyts/quickFixes/quoteToTemplate.js
+195 silly gunzTarPerm modified mode [ 'dist/main/lang/fixmyts/quickFixes/quoteToTemplate.js',
+195 silly gunzTarPerm   438,
+195 silly gunzTarPerm   420 ]
+196 silly gunzTarPerm extractEntry dist/main/lang/fixmyts/quickFixes/quotesToQuotes.js
+197 silly gunzTarPerm modified mode [ 'dist/main/lang/fixmyts/quickFixes/quotesToQuotes.js',
+197 silly gunzTarPerm   438,
+197 silly gunzTarPerm   420 ]
+198 silly gunzTarPerm extractEntry dist/main/lang/fixmyts/quickFixes/stringConcatToTemplate.js
+199 silly gunzTarPerm modified mode [ 'dist/main/lang/fixmyts/quickFixes/stringConcatToTemplate.js',
+199 silly gunzTarPerm   438,
+199 silly gunzTarPerm   420 ]
+200 silly gunzTarPerm extractEntry dist/main/lang/fixmyts/quickFixes/typeAssertPropertyAccessToAny.js
+201 silly gunzTarPerm modified mode [ 'dist/main/lang/fixmyts/quickFixes/typeAssertPropertyAccessToAny.js',
+201 silly gunzTarPerm   438,
+201 silly gunzTarPerm   420 ]
+202 silly gunzTarPerm extractEntry dist/main/lang/fixmyts/quickFixes/typeAssertPropertyAccessToType.js
+203 silly gunzTarPerm modified mode [ 'dist/main/lang/fixmyts/quickFixes/typeAssertPropertyAccessToType.js',
+203 silly gunzTarPerm   438,
+203 silly gunzTarPerm   420 ]
+204 silly gunzTarPerm extractEntry dist/main/lang/modules/astToText.js
+205 silly gunzTarPerm modified mode [ 'dist/main/lang/modules/astToText.js', 438, 420 ]
+206 silly gunzTarPerm extractEntry dist/main/lang/modules/building.js
+207 silly gunzTarPerm modified mode [ 'dist/main/lang/modules/building.js', 438, 420 ]
+208 silly gunzTarPerm extractEntry dist/main/lang/modules/formatting.js
+209 silly gunzTarPerm modified mode [ 'dist/main/lang/modules/formatting.js', 438, 420 ]
+210 silly gunzTarPerm extractEntry dist/main/lang/modules/getPathCompletions.js
+211 silly gunzTarPerm modified mode [ 'dist/main/lang/modules/getPathCompletions.js', 438, 420 ]
+212 silly gunzTarPerm extractEntry dist/main/lang/modules/moveFiles.js
+213 silly gunzTarPerm modified mode [ 'dist/main/lang/modules/moveFiles.js', 438, 420 ]
+214 silly gunzTarPerm extractEntry dist/main/lang/modules/programDependencies.js
+215 silly gunzTarPerm modified mode [ 'dist/main/lang/modules/programDependencies.js', 438, 420 ]
+216 silly gunzTarPerm extractEntry dist/main/lang/transformers/transformer.js
+217 silly gunzTarPerm modified mode [ 'dist/main/lang/transformers/transformer.js', 438, 420 ]
+218 silly gunzTarPerm extractEntry dist/main/lang/transformers/transformerRegistry.js
+219 silly gunzTarPerm modified mode [ 'dist/main/lang/transformers/transformerRegistry.js',
+219 silly gunzTarPerm   438,
+219 silly gunzTarPerm   420 ]
+220 silly gunzTarPerm extractEntry dist/main/lang/transformers/transformerUtils.js
+221 silly gunzTarPerm modified mode [ 'dist/main/lang/transformers/transformerUtils.js', 438, 420 ]
+222 silly gunzTarPerm extractEntry dist/main/lang/transformers/implementations/nullTransformer.js
+223 silly gunzTarPerm modified mode [ 'dist/main/lang/transformers/implementations/nullTransformer.js',
+223 silly gunzTarPerm   438,
+223 silly gunzTarPerm   420 ]
+224 silly gunzTarPerm extractEntry dist/main/tsconfig/formatting.js
+225 silly gunzTarPerm modified mode [ 'dist/main/tsconfig/formatting.js', 438, 420 ]
+226 silly gunzTarPerm extractEntry dist/main/tsconfig/simpleValidator.js
+227 silly gunzTarPerm modified mode [ 'dist/main/tsconfig/simpleValidator.js', 438, 420 ]
+228 silly gunzTarPerm extractEntry dist/main/tsconfig/tsconfig.js
+229 silly gunzTarPerm modified mode [ 'dist/main/tsconfig/tsconfig.js', 438, 420 ]
+230 silly gunzTarPerm extractEntry dist/main/utils/fsUtil.js
+231 silly gunzTarPerm modified mode [ 'dist/main/utils/fsUtil.js', 438, 420 ]
+232 silly gunzTarPerm extractEntry dist/typescript/makeTypeScriptGlobal.js
+233 silly gunzTarPerm modified mode [ 'dist/typescript/makeTypeScriptGlobal.js', 438, 420 ]
+234 silly gunzTarPerm extractEntry dist/typescript/readme.js
+235 silly gunzTarPerm modified mode [ 'dist/typescript/readme.js', 438, 420 ]
+236 silly gunzTarPerm extractEntry dist/typescript/compiler/binder.js
+237 silly gunzTarPerm modified mode [ 'dist/typescript/compiler/binder.js', 438, 420 ]
+238 silly gunzTarPerm extractEntry dist/typescript/compiler/core.js
+239 silly gunzTarPerm modified mode [ 'dist/typescript/compiler/core.js', 438, 420 ]
+240 silly gunzTarPerm extractEntry dist/typescript/compiler/declarationEmitter.js
+241 silly gunzTarPerm modified mode [ 'dist/typescript/compiler/declarationEmitter.js', 438, 420 ]
+242 silly gunzTarPerm extractEntry dist/typescript/compiler/diagnosticInformationMap.generated.js
+243 silly gunzTarPerm modified mode [ 'dist/typescript/compiler/diagnosticInformationMap.generated.js',
+243 silly gunzTarPerm   438,
+243 silly gunzTarPerm   420 ]
+244 silly gunzTarPerm extractEntry dist/typescript/compiler/emitter.js
+245 silly gunzTarPerm modified mode [ 'dist/typescript/compiler/emitter.js', 438, 420 ]
+246 silly gunzTarPerm extractEntry dist/typescript/compiler/commandLineParser.js
+247 silly gunzTarPerm modified mode [ 'dist/typescript/compiler/commandLineParser.js', 438, 420 ]
+248 silly gunzTarPerm extractEntry dist/typescript/compiler/program.js
+249 silly gunzTarPerm modified mode [ 'dist/typescript/compiler/program.js', 438, 420 ]
+250 silly gunzTarPerm extractEntry dist/typescript/compiler/scanner.js
+251 silly gunzTarPerm modified mode [ 'dist/typescript/compiler/scanner.js', 438, 420 ]
+252 silly gunzTarPerm extractEntry dist/typescript/compiler/sys.js
+253 silly gunzTarPerm modified mode [ 'dist/typescript/compiler/sys.js', 438, 420 ]
+254 silly gunzTarPerm extractEntry dist/typescript/compiler/tsc.js
+255 silly gunzTarPerm modified mode [ 'dist/typescript/compiler/tsc.js', 438, 420 ]
+256 silly gunzTarPerm extractEntry dist/typescript/compiler/types.js
+257 silly gunzTarPerm modified mode [ 'dist/typescript/compiler/types.js', 438, 420 ]
+258 silly gunzTarPerm extractEntry dist/typescript/compiler/checker.js
+259 silly gunzTarPerm modified mode [ 'dist/typescript/compiler/checker.js', 438, 420 ]
+260 silly gunzTarPerm extractEntry dist/typescript/compiler/utilities.js
+261 silly gunzTarPerm modified mode [ 'dist/typescript/compiler/utilities.js', 438, 420 ]
+262 silly gunzTarPerm extractEntry dist/typescript/compiler/parser.js
+263 silly gunzTarPerm modified mode [ 'dist/typescript/compiler/parser.js', 438, 420 ]
+264 silly gunzTarPerm extractEntry dist/typescript/services/breakpoints.js
+265 silly gunzTarPerm modified mode [ 'dist/typescript/services/breakpoints.js', 438, 420 ]
+266 silly gunzTarPerm extractEntry dist/typescript/services/navigateTo.js
+267 silly gunzTarPerm modified mode [ 'dist/typescript/services/navigateTo.js', 438, 420 ]
+268 silly gunzTarPerm extractEntry dist/typescript/services/navigationBar.js
+269 silly gunzTarPerm modified mode [ 'dist/typescript/services/navigationBar.js', 438, 420 ]
+270 silly gunzTarPerm extractEntry dist/typescript/services/outliningElementsCollector.js
+271 silly gunzTarPerm modified mode [ 'dist/typescript/services/outliningElementsCollector.js',
+271 silly gunzTarPerm   438,
+271 silly gunzTarPerm   420 ]
+272 silly gunzTarPerm extractEntry dist/typescript/services/patternMatcher.js
+273 silly gunzTarPerm modified mode [ 'dist/typescript/services/patternMatcher.js', 438, 420 ]
+274 silly gunzTarPerm extractEntry dist/typescript/services/services.js
+275 silly gunzTarPerm modified mode [ 'dist/typescript/services/services.js', 438, 420 ]
+276 silly gunzTarPerm extractEntry dist/typescript/services/shims.js
+277 silly gunzTarPerm modified mode [ 'dist/typescript/services/shims.js', 438, 420 ]
+278 silly gunzTarPerm extractEntry dist/typescript/services/signatureHelp.js
+279 silly gunzTarPerm modified mode [ 'dist/typescript/services/signatureHelp.js', 438, 420 ]
+280 silly gunzTarPerm extractEntry dist/typescript/services/utilities.js
+281 silly gunzTarPerm modified mode [ 'dist/typescript/services/utilities.js', 438, 420 ]
+282 silly gunzTarPerm extractEntry dist/typescript/services/formatting/formatting.js
+283 silly gunzTarPerm modified mode [ 'dist/typescript/services/formatting/formatting.js', 438, 420 ]
+284 silly gunzTarPerm extractEntry dist/typescript/services/formatting/references.js
+285 silly gunzTarPerm modified mode [ 'dist/typescript/services/formatting/references.js', 438, 420 ]
+286 silly gunzTarPerm extractEntry dist/typescript/services/formatting/rule.js
+287 silly gunzTarPerm modified mode [ 'dist/typescript/services/formatting/rule.js', 438, 420 ]
+288 silly gunzTarPerm extractEntry dist/typescript/services/formatting/ruleAction.js
+289 silly gunzTarPerm modified mode [ 'dist/typescript/services/formatting/ruleAction.js', 438, 420 ]
+290 silly gunzTarPerm extractEntry dist/typescript/services/formatting/ruleDescriptor.js
+291 silly gunzTarPerm modified mode [ 'dist/typescript/services/formatting/ruleDescriptor.js',
+291 silly gunzTarPerm   438,
+291 silly gunzTarPerm   420 ]
+292 silly gunzTarPerm extractEntry dist/typescript/services/formatting/formattingScanner.js
+293 silly gunzTarPerm modified mode [ 'dist/typescript/services/formatting/formattingScanner.js',
+293 silly gunzTarPerm   438,
+293 silly gunzTarPerm   420 ]
+294 silly gunzTarPerm extractEntry dist/typescript/services/formatting/ruleOperation.js
+295 silly gunzTarPerm modified mode [ 'dist/typescript/services/formatting/ruleOperation.js',
+295 silly gunzTarPerm   438,
+295 silly gunzTarPerm   420 ]
+296 silly gunzTarPerm extractEntry dist/typescript/services/formatting/ruleOperationContext.js
+297 silly gunzTarPerm modified mode [ 'dist/typescript/services/formatting/ruleOperationContext.js',
+297 silly gunzTarPerm   438,
+297 silly gunzTarPerm   420 ]
+298 silly gunzTarPerm extractEntry dist/typescript/services/formatting/rules.js
+299 silly gunzTarPerm modified mode [ 'dist/typescript/services/formatting/rules.js', 438, 420 ]
+300 silly gunzTarPerm extractEntry dist/typescript/services/formatting/rulesMap.js
+301 silly gunzTarPerm modified mode [ 'dist/typescript/services/formatting/rulesMap.js', 438, 420 ]
+302 silly gunzTarPerm extractEntry dist/typescript/services/formatting/rulesProvider.js
+303 silly gunzTarPerm modified mode [ 'dist/typescript/services/formatting/rulesProvider.js',
+303 silly gunzTarPerm   438,
+303 silly gunzTarPerm   420 ]
+304 silly gunzTarPerm extractEntry dist/typescript/services/formatting/formattingRequestKind.js
+305 silly gunzTarPerm modified mode [ 'dist/typescript/services/formatting/formattingRequestKind.js',
+305 silly gunzTarPerm   438,
+305 silly gunzTarPerm   420 ]
+306 silly gunzTarPerm extractEntry dist/typescript/services/formatting/smartIndenter.js
+307 silly gunzTarPerm modified mode [ 'dist/typescript/services/formatting/smartIndenter.js',
+307 silly gunzTarPerm   438,
+307 silly gunzTarPerm   420 ]
+308 silly gunzTarPerm extractEntry dist/typescript/services/formatting/formattingContext.js
+309 silly gunzTarPerm modified mode [ 'dist/typescript/services/formatting/formattingContext.js',
+309 silly gunzTarPerm   438,
+309 silly gunzTarPerm   420 ]
+310 silly gunzTarPerm extractEntry dist/typescript/services/formatting/tokenRange.js
+311 silly gunzTarPerm modified mode [ 'dist/typescript/services/formatting/tokenRange.js', 438, 420 ]
+312 silly gunzTarPerm extractEntry dist/typescript/services/formatting/ruleFlag.js
+313 silly gunzTarPerm modified mode [ 'dist/typescript/services/formatting/ruleFlag.js', 438, 420 ]
+314 silly gunzTarPerm extractEntry dist/worker/child.js
+315 silly gunzTarPerm modified mode [ 'dist/worker/child.js', 438, 420 ]
+316 silly gunzTarPerm extractEntry dist/worker/debug.js
+317 silly gunzTarPerm modified mode [ 'dist/worker/debug.js', 438, 420 ]
+318 silly gunzTarPerm extractEntry dist/worker/parent.js
+319 silly gunzTarPerm modified mode [ 'dist/worker/parent.js', 438, 420 ]
+320 silly gunzTarPerm extractEntry dist/worker/queryParent.js
+321 silly gunzTarPerm modified mode [ 'dist/worker/queryParent.js', 438, 420 ]
+322 silly gunzTarPerm extractEntry dist/worker/lib/workerLib.js
+323 silly gunzTarPerm modified mode [ 'dist/worker/lib/workerLib.js', 438, 420 ]
+324 silly gunzTarPerm extractEntry docs/CHANGELOG.md
+325 silly gunzTarPerm modified mode [ 'docs/CHANGELOG.md', 438, 420 ]
+326 silly gunzTarPerm extractEntry docs/dependency-view.md
+327 silly gunzTarPerm modified mode [ 'docs/dependency-view.md', 438, 420 ]
+328 silly gunzTarPerm extractEntry docs/faq.md
+329 silly gunzTarPerm modified mode [ 'docs/faq.md', 438, 420 ]
+330 silly gunzTarPerm extractEntry docs/grammar.md
+331 silly gunzTarPerm modified mode [ 'docs/grammar.md', 438, 420 ]
+332 silly gunzTarPerm extractEntry docs/out.md
+333 silly gunzTarPerm modified mode [ 'docs/out.md', 438, 420 ]
+334 silly gunzTarPerm extractEntry docs/packages.md
+335 silly gunzTarPerm modified mode [ 'docs/packages.md', 438, 420 ]
+336 silly gunzTarPerm extractEntry docs/quickfix.md
+337 silly gunzTarPerm modified mode [ 'docs/quickfix.md', 438, 420 ]
+338 silly gunzTarPerm extractEntry docs/screens/autocomplete1.png
+339 silly gunzTarPerm modified mode [ 'docs/screens/autocomplete1.png', 438, 420 ]
+340 silly gunzTarPerm extractEntry docs/screens/autocomplete2.png
+341 silly gunzTarPerm modified mode [ 'docs/screens/autocomplete2.png', 438, 420 ]
+342 silly gunzTarPerm extractEntry docs/screens/build errors.png
+343 silly gunzTarPerm modified mode [ 'docs/screens/build errors.png', 438, 420 ]
+344 silly gunzTarPerm extractEntry docs/screens/build success.png
+345 silly gunzTarPerm modified mode [ 'docs/screens/build success.png', 438, 420 ]
+346 silly gunzTarPerm extractEntry docs/screens/compile error.png
+347 silly gunzTarPerm modified mode [ 'docs/screens/compile error.png', 438, 420 ]
+348 silly gunzTarPerm extractEntry docs/screens/compile success.png
+349 silly gunzTarPerm modified mode [ 'docs/screens/compile success.png', 438, 420 ]
+350 silly gunzTarPerm extractEntry docs/screens/emit error.png
+351 silly gunzTarPerm modified mode [ 'docs/screens/emit error.png', 438, 420 ]
+352 silly gunzTarPerm extractEntry docs/screens/hover.png
+353 silly gunzTarPerm modified mode [ 'docs/screens/hover.png', 438, 420 ]
+354 silly gunzTarPerm extractEntry docs/screens/proj.png
+355 silly gunzTarPerm modified mode [ 'docs/screens/proj.png', 438, 420 ]
+356 silly gunzTarPerm extractEntry docs/screens/renameRefactoring.png
+357 silly gunzTarPerm modified mode [ 'docs/screens/renameRefactoring.png', 438, 420 ]
+358 silly gunzTarPerm extractEntry docs/spacepen.md
+359 silly gunzTarPerm modified mode [ 'docs/spacepen.md', 438, 420 ]
+360 silly gunzTarPerm extractEntry docs/tsconfig.md
+361 silly gunzTarPerm modified mode [ 'docs/tsconfig.md', 438, 420 ]
+362 silly gunzTarPerm extractEntry CONTRIBUTING.md
+363 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 438, 420 ]
+364 silly gunzTarPerm extractEntry images/light-bulb.png
+365 silly gunzTarPerm modified mode [ 'images/light-bulb.png', 438, 420 ]
+366 silly gunzTarPerm extractEntry keymaps/atom-typescript.cson
+367 silly gunzTarPerm modified mode [ 'keymaps/atom-typescript.cson', 438, 420 ]
+368 silly gunzTarPerm extractEntry keymaps/autocomplete-keymaps.cson
+369 silly gunzTarPerm modified mode [ 'keymaps/autocomplete-keymaps.cson', 438, 420 ]
+370 silly gunzTarPerm extractEntry lib/globals.ts
+371 silly gunzTarPerm modified mode [ 'lib/globals.ts', 438, 420 ]
+372 silly gunzTarPerm extractEntry lib/linter.ts
+373 silly gunzTarPerm modified mode [ 'lib/linter.ts', 438, 420 ]
+374 silly gunzTarPerm extractEntry lib/main/atom/editorSetup.ts
+375 silly gunzTarPerm modified mode [ 'lib/main/atom/editorSetup.ts', 438, 420 ]
+376 silly gunzTarPerm extractEntry lib/main/atom/atomConfig.ts
+377 silly gunzTarPerm modified mode [ 'lib/main/atom/atomConfig.ts', 438, 420 ]
+378 silly gunzTarPerm extractEntry lib/main/atom/autoCompleteProvider.ts
+379 silly gunzTarPerm modified mode [ 'lib/main/atom/autoCompleteProvider.ts', 438, 420 ]
+380 silly gunzTarPerm extractEntry lib/main/atom/buildView.ts
+381 silly gunzTarPerm modified mode [ 'lib/main/atom/buildView.ts', 438, 420 ]
+382 silly gunzTarPerm extractEntry lib/main/atom/commands/commands.ts
+383 silly gunzTarPerm modified mode [ 'lib/main/atom/commands/commands.ts', 438, 420 ]
+384 silly gunzTarPerm extractEntry lib/main/atom/commands/moveFilesHandling.ts
+385 silly gunzTarPerm modified mode [ 'lib/main/atom/commands/moveFilesHandling.ts', 438, 420 ]
+386 silly gunzTarPerm extractEntry lib/main/atom/commands/outputFileCommands.ts
+387 silly gunzTarPerm modified mode [ 'lib/main/atom/commands/outputFileCommands.ts', 438, 420 ]
+388 silly gunzTarPerm extractEntry lib/main/atom/debugAtomTs.ts
+389 silly gunzTarPerm modified mode [ 'lib/main/atom/debugAtomTs.ts', 438, 420 ]
+390 silly gunzTarPerm extractEntry lib/main/atom/atomUtils.ts
+391 silly gunzTarPerm modified mode [ 'lib/main/atom/atomUtils.ts', 438, 420 ]
+392 silly gunzTarPerm extractEntry lib/main/atom/gotoHistory.ts
+393 silly gunzTarPerm modified mode [ 'lib/main/atom/gotoHistory.ts', 438, 420 ]
+394 silly gunzTarPerm extractEntry lib/main/atom/onSaveHandler.ts
+395 silly gunzTarPerm modified mode [ 'lib/main/atom/onSaveHandler.ts', 438, 420 ]
+396 silly gunzTarPerm extractEntry lib/main/atom/signatureProvider.ts
+397 silly gunzTarPerm modified mode [ 'lib/main/atom/signatureProvider.ts', 438, 420 ]
+398 silly gunzTarPerm extractEntry lib/main/atom/tooltipManager.ts
+399 silly gunzTarPerm modified mode [ 'lib/main/atom/tooltipManager.ts', 438, 420 ]
+400 silly gunzTarPerm extractEntry lib/main/atom/typescriptGrammar.ts
+401 silly gunzTarPerm modified mode [ 'lib/main/atom/typescriptGrammar.ts', 438, 420 ]
+402 silly gunzTarPerm extractEntry lib/main/atom/views/mainPanelView.ts
+403 silly gunzTarPerm modified mode [ 'lib/main/atom/views/mainPanelView.ts', 438, 420 ]
+404 silly gunzTarPerm extractEntry lib/main/atom/views/astView.ts
+405 silly gunzTarPerm modified mode [ 'lib/main/atom/views/astView.ts', 438, 420 ]
+406 silly gunzTarPerm extractEntry lib/main/atom/views/contextView.ts
+407 silly gunzTarPerm modified mode [ 'lib/main/atom/views/contextView.ts', 438, 420 ]
+408 silly gunzTarPerm extractEntry lib/main/atom/views/dependencyView.ts
+409 silly gunzTarPerm modified mode [ 'lib/main/atom/views/dependencyView.ts', 438, 420 ]
+410 silly gunzTarPerm extractEntry lib/main/atom/views/documentationView.ts
+411 silly gunzTarPerm modified mode [ 'lib/main/atom/views/documentationView.ts', 438, 420 ]
+412 silly gunzTarPerm extractEntry lib/main/atom/views/fileSemanticView.ts
+413 silly gunzTarPerm modified mode [ 'lib/main/atom/views/fileSemanticView.ts', 438, 420 ]
+414 silly gunzTarPerm extractEntry lib/main/atom/views/fileSymbolsView.ts
+415 silly gunzTarPerm modified mode [ 'lib/main/atom/views/fileSymbolsView.ts', 438, 420 ]
+416 silly gunzTarPerm extractEntry lib/main/atom/views/lineMessageView.ts
+417 silly gunzTarPerm modified mode [ 'lib/main/atom/views/lineMessageView.ts', 438, 420 ]
+418 silly gunzTarPerm extractEntry lib/main/atom/views/awesomePanelView.ts
+419 silly gunzTarPerm modified mode [ 'lib/main/atom/views/awesomePanelView.ts', 438, 420 ]
+420 silly gunzTarPerm extractEntry lib/main/atom/views/plainMessageView.ts
+421 silly gunzTarPerm modified mode [ 'lib/main/atom/views/plainMessageView.ts', 438, 420 ]
+422 silly gunzTarPerm extractEntry lib/main/atom/views/projectSymbolsView.ts
+423 silly gunzTarPerm modified mode [ 'lib/main/atom/views/projectSymbolsView.ts', 438, 420 ]
+424 silly gunzTarPerm extractEntry lib/main/atom/views/renameView.ts
+425 silly gunzTarPerm modified mode [ 'lib/main/atom/views/renameView.ts', 438, 420 ]
+426 silly gunzTarPerm extractEntry lib/main/atom/views/simpleOverlaySelectionView.ts
+427 silly gunzTarPerm modified mode [ 'lib/main/atom/views/simpleOverlaySelectionView.ts', 438, 420 ]
+428 silly gunzTarPerm extractEntry lib/main/atom/views/simpleSelectionView.ts
+429 silly gunzTarPerm modified mode [ 'lib/main/atom/views/simpleSelectionView.ts', 438, 420 ]
+430 silly gunzTarPerm extractEntry lib/main/atom/views/tooltipView.ts
+431 silly gunzTarPerm modified mode [ 'lib/main/atom/views/tooltipView.ts', 438, 420 ]
+432 silly gunzTarPerm extractEntry lib/main/atom/views/view.ts
+433 silly gunzTarPerm modified mode [ 'lib/main/atom/views/view.ts', 438, 420 ]
+434 silly gunzTarPerm extractEntry lib/main/atomts.ts
+435 silly gunzTarPerm modified mode [ 'lib/main/atomts.ts', 438, 420 ]
+436 silly gunzTarPerm extractEntry lib/main/bin/atbuild.ts
+437 silly gunzTarPerm modified mode [ 'lib/main/bin/atbuild.ts', 438, 420 ]
+438 silly gunzTarPerm extractEntry lib/main/lang/core/languageServiceHost2.ts
+439 silly gunzTarPerm modified mode [ 'lib/main/lang/core/languageServiceHost2.ts', 438, 420 ]
+440 silly gunzTarPerm extractEntry lib/main/lang/core/project.ts
+441 silly gunzTarPerm modified mode [ 'lib/main/lang/core/project.ts', 438, 420 ]
+442 silly gunzTarPerm extractEntry lib/main/lang/fixmyts/astUtils.ts
+443 silly gunzTarPerm modified mode [ 'lib/main/lang/fixmyts/astUtils.ts', 438, 420 ]
+444 silly gunzTarPerm extractEntry lib/main/lang/fixmyts/quickFix.ts
+445 silly gunzTarPerm modified mode [ 'lib/main/lang/fixmyts/quickFix.ts', 438, 420 ]
+446 silly gunzTarPerm extractEntry lib/main/lang/fixmyts/quickFixRegistry.ts
+447 silly gunzTarPerm modified mode [ 'lib/main/lang/fixmyts/quickFixRegistry.ts', 438, 420 ]
+448 silly gunzTarPerm extractEntry lib/main/lang/fixmyts/quickFixes/addClassMember.ts
+449 silly gunzTarPerm modified mode [ 'lib/main/lang/fixmyts/quickFixes/addClassMember.ts',
+449 silly gunzTarPerm   438,
+449 silly gunzTarPerm   420 ]
+450 silly gunzTarPerm extractEntry lib/main/lang/fixmyts/quickFixes/addImportStatement.ts
+451 silly gunzTarPerm modified mode [ 'lib/main/lang/fixmyts/quickFixes/addImportStatement.ts',
+451 silly gunzTarPerm   438,
+451 silly gunzTarPerm   420 ]
+452 silly gunzTarPerm extractEntry lib/main/lang/fixmyts/quickFixes/equalsToEquals.ts
+453 silly gunzTarPerm modified mode [ 'lib/main/lang/fixmyts/quickFixes/equalsToEquals.ts',
+453 silly gunzTarPerm   438,
+453 silly gunzTarPerm   420 ]
+454 silly gunzTarPerm extractEntry lib/main/lang/fixmyts/quickFixes/implementInterface.ts
+455 silly gunzTarPerm modified mode [ 'lib/main/lang/fixmyts/quickFixes/implementInterface.ts',
+455 silly gunzTarPerm   438,
+455 silly gunzTarPerm   420 ]
+456 silly gunzTarPerm extractEntry lib/main/lang/fixmyts/quickFixes/quoteToTemplate.ts
+457 silly gunzTarPerm modified mode [ 'lib/main/lang/fixmyts/quickFixes/quoteToTemplate.ts',
+457 silly gunzTarPerm   438,
+457 silly gunzTarPerm   420 ]
+458 silly gunzTarPerm extractEntry lib/main/lang/fixmyts/quickFixes/quotesToQuotes.ts
+459 silly gunzTarPerm modified mode [ 'lib/main/lang/fixmyts/quickFixes/quotesToQuotes.ts',
+459 silly gunzTarPerm   438,
+459 silly gunzTarPerm   420 ]
+460 silly gunzTarPerm extractEntry lib/main/lang/fixmyts/quickFixes/stringConcatToTemplate.ts
+461 silly gunzTarPerm modified mode [ 'lib/main/lang/fixmyts/quickFixes/stringConcatToTemplate.ts',
+461 silly gunzTarPerm   438,
+461 silly gunzTarPerm   420 ]
+462 silly gunzTarPerm extractEntry lib/main/lang/fixmyts/quickFixes/typeAssertPropertyAccessToAny.ts
+463 silly gunzTarPerm modified mode [ 'lib/main/lang/fixmyts/quickFixes/typeAssertPropertyAccessToAny.ts',
+463 silly gunzTarPerm   438,
+463 silly gunzTarPerm   420 ]
+464 silly gunzTarPerm extractEntry lib/main/lang/fixmyts/quickFixes/typeAssertPropertyAccessToType.ts
+465 silly gunzTarPerm modified mode [ 'lib/main/lang/fixmyts/quickFixes/typeAssertPropertyAccessToType.ts',
+465 silly gunzTarPerm   438,
+465 silly gunzTarPerm   420 ]
+466 silly gunzTarPerm extractEntry lib/main/lang/modules/astToText.ts
+467 silly gunzTarPerm modified mode [ 'lib/main/lang/modules/astToText.ts', 438, 420 ]
+468 silly gunzTarPerm extractEntry lib/main/lang/modules/building.ts
+469 silly gunzTarPerm modified mode [ 'lib/main/lang/modules/building.ts', 438, 420 ]
+470 silly gunzTarPerm extractEntry lib/main/lang/modules/formatting.ts
+471 silly gunzTarPerm modified mode [ 'lib/main/lang/modules/formatting.ts', 438, 420 ]
+472 silly gunzTarPerm extractEntry lib/main/lang/modules/getPathCompletions.ts
+473 silly gunzTarPerm modified mode [ 'lib/main/lang/modules/getPathCompletions.ts', 438, 420 ]
+474 silly gunzTarPerm extractEntry lib/main/lang/modules/moveFiles.ts
+475 silly gunzTarPerm modified mode [ 'lib/main/lang/modules/moveFiles.ts', 438, 420 ]
+476 silly gunzTarPerm extractEntry lib/main/lang/modules/programDependencies.ts
+477 silly gunzTarPerm modified mode [ 'lib/main/lang/modules/programDependencies.ts', 438, 420 ]
+478 silly gunzTarPerm extractEntry lib/main/lang/projectCache.ts
+479 silly gunzTarPerm modified mode [ 'lib/main/lang/projectCache.ts', 438, 420 ]
+480 silly gunzTarPerm extractEntry lib/main/lang/projectService.ts
+481 silly gunzTarPerm modified mode [ 'lib/main/lang/projectService.ts', 438, 420 ]
+482 silly gunzTarPerm extractEntry lib/main/lang/transformers/implementations/nullTransformer.ts
+483 silly gunzTarPerm modified mode [ 'lib/main/lang/transformers/implementations/nullTransformer.ts',
+483 silly gunzTarPerm   438,
+483 silly gunzTarPerm   420 ]
+484 silly gunzTarPerm extractEntry lib/main/lang/transformers/transformer.ts
+485 silly gunzTarPerm modified mode [ 'lib/main/lang/transformers/transformer.ts', 438, 420 ]
+486 silly gunzTarPerm extractEntry lib/main/lang/transformers/transformerRegistry.ts
+487 silly gunzTarPerm modified mode [ 'lib/main/lang/transformers/transformerRegistry.ts', 438, 420 ]
+488 silly gunzTarPerm extractEntry lib/main/lang/utils.ts
+489 silly gunzTarPerm modified mode [ 'lib/main/lang/utils.ts', 438, 420 ]
+490 silly gunzTarPerm extractEntry lib/main/tsconfig/formatting.ts
+491 silly gunzTarPerm modified mode [ 'lib/main/tsconfig/formatting.ts', 438, 420 ]
+492 silly gunzTarPerm extractEntry lib/main/tsconfig/simpleValidator.ts
+493 silly gunzTarPerm modified mode [ 'lib/main/tsconfig/simpleValidator.ts', 438, 420 ]
+494 silly gunzTarPerm extractEntry lib/main/tsconfig/tsconfig.ts
+495 silly gunzTarPerm modified mode [ 'lib/main/tsconfig/tsconfig.ts', 438, 420 ]
+496 silly gunzTarPerm extractEntry lib/main/utils/fsUtil.ts
+497 silly gunzTarPerm modified mode [ 'lib/main/utils/fsUtil.ts', 438, 420 ]
+498 silly gunzTarPerm extractEntry lib/tsconfig.json
+499 silly gunzTarPerm modified mode [ 'lib/tsconfig.json', 438, 420 ]
+500 silly gunzTarPerm extractEntry lib/tsd.json
+501 silly gunzTarPerm modified mode [ 'lib/tsd.json', 438, 420 ]
+502 silly gunzTarPerm extractEntry lib/typescript/compiler/emitter.ts
+503 silly gunzTarPerm modified mode [ 'lib/typescript/compiler/emitter.ts', 438, 420 ]
+504 silly gunzTarPerm extractEntry lib/typescript/compiler/binder.ts
+505 silly gunzTarPerm modified mode [ 'lib/typescript/compiler/binder.ts', 438, 420 ]
+506 silly gunzTarPerm extractEntry lib/typescript/compiler/commandLineParser.ts
+507 silly gunzTarPerm modified mode [ 'lib/typescript/compiler/commandLineParser.ts', 438, 420 ]
+508 silly gunzTarPerm extractEntry lib/typescript/compiler/core.ts
+509 silly gunzTarPerm modified mode [ 'lib/typescript/compiler/core.ts', 438, 420 ]
+510 silly gunzTarPerm extractEntry lib/typescript/compiler/declarationEmitter.ts
+511 silly gunzTarPerm modified mode [ 'lib/typescript/compiler/declarationEmitter.ts', 438, 420 ]
+512 silly gunzTarPerm extractEntry lib/typescript/compiler/diagnosticInformationMap.generated.ts
+513 silly gunzTarPerm modified mode [ 'lib/typescript/compiler/diagnosticInformationMap.generated.ts',
+513 silly gunzTarPerm   438,
+513 silly gunzTarPerm   420 ]
+514 silly gunzTarPerm extractEntry lib/typescript/compiler/diagnosticMessages.json
+515 silly gunzTarPerm modified mode [ 'lib/typescript/compiler/diagnosticMessages.json', 438, 420 ]
+516 silly gunzTarPerm extractEntry lib/typescript/compiler/checker.ts
+517 silly gunzTarPerm modified mode [ 'lib/typescript/compiler/checker.ts', 438, 420 ]
+518 silly gunzTarPerm extractEntry lib/typescript/compiler/parser.ts
+519 silly gunzTarPerm modified mode [ 'lib/typescript/compiler/parser.ts', 438, 420 ]
+520 silly gunzTarPerm extractEntry lib/typescript/compiler/program.ts
+521 silly gunzTarPerm modified mode [ 'lib/typescript/compiler/program.ts', 438, 420 ]
+522 silly gunzTarPerm extractEntry lib/typescript/compiler/scanner.ts
+523 silly gunzTarPerm modified mode [ 'lib/typescript/compiler/scanner.ts', 438, 420 ]
+524 silly gunzTarPerm extractEntry lib/typescript/compiler/sys.ts
+525 silly gunzTarPerm modified mode [ 'lib/typescript/compiler/sys.ts', 438, 420 ]
+526 silly gunzTarPerm extractEntry lib/typescript/compiler/types.ts
+527 silly gunzTarPerm modified mode [ 'lib/typescript/compiler/types.ts', 438, 420 ]
+528 silly gunzTarPerm extractEntry lib/typescript/compiler/utilities.ts
+529 silly gunzTarPerm modified mode [ 'lib/typescript/compiler/utilities.ts', 438, 420 ]
+530 silly gunzTarPerm extractEntry lib/typescript/makeTypeScriptGlobal.ts
+531 silly gunzTarPerm modified mode [ 'lib/typescript/makeTypeScriptGlobal.ts', 438, 420 ]
+532 silly gunzTarPerm extractEntry lib/typescript/readme.md
+533 silly gunzTarPerm modified mode [ 'lib/typescript/readme.md', 438, 420 ]
+534 silly gunzTarPerm extractEntry lib/typescript/services/breakpoints.ts
+535 silly gunzTarPerm modified mode [ 'lib/typescript/services/breakpoints.ts', 438, 420 ]
+536 silly gunzTarPerm extractEntry lib/typescript/services/formatting/ruleFlag.ts
+537 silly gunzTarPerm modified mode [ 'lib/typescript/services/formatting/ruleFlag.ts', 438, 420 ]
+538 silly gunzTarPerm extractEntry lib/typescript/services/formatting/formatting.ts
+539 silly gunzTarPerm modified mode [ 'lib/typescript/services/formatting/formatting.ts', 438, 420 ]
+540 silly gunzTarPerm extractEntry lib/typescript/services/formatting/formattingRequestKind.ts
+541 silly gunzTarPerm modified mode [ 'lib/typescript/services/formatting/formattingRequestKind.ts',
+541 silly gunzTarPerm   438,
+541 silly gunzTarPerm   420 ]
+542 silly gunzTarPerm extractEntry lib/typescript/services/formatting/formattingScanner.ts
+543 silly gunzTarPerm modified mode [ 'lib/typescript/services/formatting/formattingScanner.ts',
+543 silly gunzTarPerm   438,
+543 silly gunzTarPerm   420 ]
+544 silly gunzTarPerm extractEntry lib/typescript/services/formatting/references.ts
+545 silly gunzTarPerm modified mode [ 'lib/typescript/services/formatting/references.ts', 438, 420 ]
+546 silly gunzTarPerm extractEntry lib/typescript/services/formatting/rule.ts
+547 silly gunzTarPerm modified mode [ 'lib/typescript/services/formatting/rule.ts', 438, 420 ]
+548 silly gunzTarPerm extractEntry lib/typescript/services/formatting/ruleAction.ts
+549 silly gunzTarPerm modified mode [ 'lib/typescript/services/formatting/ruleAction.ts', 438, 420 ]
+550 silly gunzTarPerm extractEntry lib/typescript/services/formatting/ruleDescriptor.ts
+551 silly gunzTarPerm modified mode [ 'lib/typescript/services/formatting/ruleDescriptor.ts',
+551 silly gunzTarPerm   438,
+551 silly gunzTarPerm   420 ]
+552 silly gunzTarPerm extractEntry lib/typescript/services/formatting/formattingContext.ts
+553 silly gunzTarPerm modified mode [ 'lib/typescript/services/formatting/formattingContext.ts',
+553 silly gunzTarPerm   438,
+553 silly gunzTarPerm   420 ]
+554 silly gunzTarPerm extractEntry lib/typescript/services/formatting/ruleOperation.ts
+555 silly gunzTarPerm modified mode [ 'lib/typescript/services/formatting/ruleOperation.ts',
+555 silly gunzTarPerm   438,
+555 silly gunzTarPerm   420 ]
+556 silly gunzTarPerm extractEntry lib/typescript/services/formatting/ruleOperationContext.ts
+557 silly gunzTarPerm modified mode [ 'lib/typescript/services/formatting/ruleOperationContext.ts',
+557 silly gunzTarPerm   438,
+557 silly gunzTarPerm   420 ]
+558 silly gunzTarPerm extractEntry lib/typescript/services/formatting/rules.ts
+559 silly gunzTarPerm modified mode [ 'lib/typescript/services/formatting/rules.ts', 438, 420 ]
+560 silly gunzTarPerm extractEntry lib/typescript/services/formatting/rulesMap.ts
+561 silly gunzTarPerm modified mode [ 'lib/typescript/services/formatting/rulesMap.ts', 438, 420 ]
+562 silly gunzTarPerm extractEntry lib/typescript/services/formatting/rulesProvider.ts
+563 silly gunzTarPerm modified mode [ 'lib/typescript/services/formatting/rulesProvider.ts',
+563 silly gunzTarPerm   438,
+563 silly gunzTarPerm   420 ]
+564 silly gunzTarPerm extractEntry lib/typescript/services/formatting/smartIndenter.ts
+565 silly gunzTarPerm modified mode [ 'lib/typescript/services/formatting/smartIndenter.ts',
+565 silly gunzTarPerm   438,
+565 silly gunzTarPerm   420 ]
+566 silly gunzTarPerm extractEntry lib/typescript/services/formatting/tokenRange.ts
+567 silly gunzTarPerm modified mode [ 'lib/typescript/services/formatting/tokenRange.ts', 438, 420 ]
+568 silly gunzTarPerm extractEntry lib/typescript/services/navigateTo.ts
+569 silly gunzTarPerm modified mode [ 'lib/typescript/services/navigateTo.ts', 438, 420 ]
+570 silly gunzTarPerm extractEntry lib/typescript/services/navigationBar.ts
+571 silly gunzTarPerm modified mode [ 'lib/typescript/services/navigationBar.ts', 438, 420 ]
+572 silly gunzTarPerm extractEntry lib/typescript/services/outliningElementsCollector.ts
+573 silly gunzTarPerm modified mode [ 'lib/typescript/services/outliningElementsCollector.ts',
+573 silly gunzTarPerm   438,
+573 silly gunzTarPerm   420 ]
+574 silly gunzTarPerm extractEntry lib/typescript/services/patternMatcher.ts
+575 silly gunzTarPerm modified mode [ 'lib/typescript/services/patternMatcher.ts', 438, 420 ]
+576 silly gunzTarPerm extractEntry lib/typescript/services/services.ts
+577 silly gunzTarPerm modified mode [ 'lib/typescript/services/services.ts', 438, 420 ]
+578 silly gunzTarPerm extractEntry lib/typescript/services/shims.ts
+579 silly gunzTarPerm modified mode [ 'lib/typescript/services/shims.ts', 438, 420 ]
+580 silly gunzTarPerm extractEntry lib/typescript/services/signatureHelp.ts
+581 silly gunzTarPerm modified mode [ 'lib/typescript/services/signatureHelp.ts', 438, 420 ]
+582 silly gunzTarPerm extractEntry lib/typescript/services/utilities.ts
+583 silly gunzTarPerm modified mode [ 'lib/typescript/services/utilities.ts', 438, 420 ]
+584 silly gunzTarPerm extractEntry lib/typings/mixto/mixto.d.ts
+585 silly gunzTarPerm modified mode [ 'lib/typings/mixto/mixto.d.ts', 438, 420 ]
+586 silly gunzTarPerm extractEntry lib/typings/atom/atom.d.ts
+587 silly gunzTarPerm modified mode [ 'lib/typings/atom/atom.d.ts', 438, 420 ]
+588 silly gunzTarPerm extractEntry lib/typings/bluebird.d.ts
+589 silly gunzTarPerm modified mode [ 'lib/typings/bluebird.d.ts', 438, 420 ]
+590 silly gunzTarPerm extractEntry lib/typings/brackets.d.ts
+591 silly gunzTarPerm modified mode [ 'lib/typings/brackets.d.ts', 438, 420 ]
+592 silly gunzTarPerm extractEntry lib/typings/codemirror.d.ts
+593 silly gunzTarPerm modified mode [ 'lib/typings/codemirror.d.ts', 438, 420 ]
+594 silly gunzTarPerm extractEntry lib/typings/d3/d3.d.ts
+595 silly gunzTarPerm modified mode [ 'lib/typings/d3/d3.d.ts', 438, 420 ]
+596 silly gunzTarPerm extractEntry lib/typings/emissary/emissary.d.ts
+597 silly gunzTarPerm modified mode [ 'lib/typings/emissary/emissary.d.ts', 438, 420 ]
+598 silly gunzTarPerm extractEntry lib/typings/glob-expand/glob-expand.d.ts
+599 silly gunzTarPerm modified mode [ 'lib/typings/glob-expand/glob-expand.d.ts', 438, 420 ]
+600 silly gunzTarPerm extractEntry lib/typings/jquery/jquery.d.ts
+601 silly gunzTarPerm modified mode [ 'lib/typings/jquery/jquery.d.ts', 438, 420 ]
+602 silly gunzTarPerm extractEntry lib/typings/minimatch.d.ts
+603 silly gunzTarPerm modified mode [ 'lib/typings/minimatch.d.ts', 438, 420 ]
+604 silly gunzTarPerm extractEntry lib/typings/atompromise.d.ts
+605 silly gunzTarPerm modified mode [ 'lib/typings/atompromise.d.ts', 438, 420 ]
+606 silly gunzTarPerm extractEntry lib/typings/mkdirp/mkdirp.d.ts
+607 silly gunzTarPerm modified mode [ 'lib/typings/mkdirp/mkdirp.d.ts', 438, 420 ]
+608 silly gunzTarPerm extractEntry lib/typings/mustache.d.ts
+609 silly gunzTarPerm modified mode [ 'lib/typings/mustache.d.ts', 438, 420 ]
+610 silly gunzTarPerm extractEntry lib/typings/node/node.d.ts
+611 silly gunzTarPerm modified mode [ 'lib/typings/node/node.d.ts', 438, 420 ]
+612 silly gunzTarPerm extractEntry lib/typings/pathwatcher/pathwatcher.d.ts
+613 silly gunzTarPerm modified mode [ 'lib/typings/pathwatcher/pathwatcher.d.ts', 438, 420 ]
+614 silly gunzTarPerm extractEntry lib/typings/q/Q.d.ts
+615 silly gunzTarPerm modified mode [ 'lib/typings/q/Q.d.ts', 438, 420 ]
+616 silly gunzTarPerm extractEntry lib/typings/source-map/source-map.d.ts
+617 silly gunzTarPerm modified mode [ 'lib/typings/source-map/source-map.d.ts', 438, 420 ]
+618 silly gunzTarPerm extractEntry lib/typings/space-pen/space-pen.d.ts
+619 silly gunzTarPerm modified mode [ 'lib/typings/space-pen/space-pen.d.ts', 438, 420 ]
+620 silly gunzTarPerm extractEntry lib/typings/status-bar/status-bar.d.ts
+621 silly gunzTarPerm modified mode [ 'lib/typings/status-bar/status-bar.d.ts', 438, 420 ]
+622 silly gunzTarPerm extractEntry lib/typings/text-buffer/text-buffer.d.ts
+623 silly gunzTarPerm modified mode [ 'lib/typings/text-buffer/text-buffer.d.ts', 438, 420 ]
+624 silly gunzTarPerm extractEntry lib/typings/tsd.d.ts
+625 silly gunzTarPerm modified mode [ 'lib/typings/tsd.d.ts', 438, 420 ]
+626 silly gunzTarPerm extractEntry lib/worker/child.ts
+627 silly gunzTarPerm modified mode [ 'lib/worker/child.ts', 438, 420 ]
+628 silly gunzTarPerm extractEntry lib/worker/debug.ts
+629 silly gunzTarPerm modified mode [ 'lib/worker/debug.ts', 438, 420 ]
+630 silly gunzTarPerm extractEntry lib/worker/lib/workerLib.ts
+631 silly gunzTarPerm modified mode [ 'lib/worker/lib/workerLib.ts', 438, 420 ]
+632 silly gunzTarPerm extractEntry lib/worker/parent.ts
+633 silly gunzTarPerm modified mode [ 'lib/worker/parent.ts', 438, 420 ]
+634 silly gunzTarPerm extractEntry lib/worker/queryParent.ts
+635 silly gunzTarPerm modified mode [ 'lib/worker/queryParent.ts', 438, 420 ]
+636 silly gunzTarPerm extractEntry menus/atomts-menus.cson
+637 silly gunzTarPerm modified mode [ 'menus/atomts-menus.cson', 438, 420 ]
+638 silly gunzTarPerm extractEntry tsd.json
+639 silly gunzTarPerm modified mode [ 'tsd.json', 438, 420 ]
+640 silly gunzTarPerm extractEntry LICENSE.md
+641 silly gunzTarPerm modified mode [ 'LICENSE.md', 438, 420 ]
+642 silly gunzTarPerm extractEntry settings/typescript.cson
+643 silly gunzTarPerm modified mode [ 'settings/typescript.cson', 438, 420 ]
+644 silly gunzTarPerm extractEntry snippets/tsconfig-snippets.cson
+645 silly gunzTarPerm modified mode [ 'snippets/tsconfig-snippets.cson', 438, 420 ]
+646 silly gunzTarPerm extractEntry snippets/typescript-snippets.cson
+647 silly gunzTarPerm modified mode [ 'snippets/typescript-snippets.cson', 438, 420 ]
+648 silly gunzTarPerm extractEntry styles/atomts-rename-view.less
+649 silly gunzTarPerm modified mode [ 'styles/atomts-rename-view.less', 438, 420 ]
+650 silly gunzTarPerm extractEntry styles/ast-view.less
+651 silly gunzTarPerm modified mode [ 'styles/ast-view.less', 438, 420 ]
+652 silly gunzTarPerm extractEntry styles/atomts-file-semantic-view.less
+653 silly gunzTarPerm modified mode [ 'styles/atomts-file-semantic-view.less', 438, 420 ]
+654 silly gunzTarPerm extractEntry styles/atomts-main-panel-view.less
+655 silly gunzTarPerm modified mode [ 'styles/atomts-main-panel-view.less', 438, 420 ]
+656 silly gunzTarPerm extractEntry styles/atomts-overlay.less
+657 silly gunzTarPerm modified mode [ 'styles/atomts-overlay.less', 438, 420 ]
+658 silly gunzTarPerm extractEntry styles/atom-typescript-tooltip.less
+659 silly gunzTarPerm modified mode [ 'styles/atom-typescript-tooltip.less', 438, 420 ]
+660 silly gunzTarPerm extractEntry styles/atomts-syntax.less
+661 silly gunzTarPerm modified mode [ 'styles/atomts-syntax.less', 438, 420 ]
+662 silly gunzTarPerm extractEntry styles/autocomplete-fix.less
+663 silly gunzTarPerm modified mode [ 'styles/autocomplete-fix.less', 438, 420 ]
+664 silly gunzTarPerm extractEntry styles/dependency-view.less
+665 silly gunzTarPerm modified mode [ 'styles/dependency-view.less', 438, 420 ]
+666 silly gunzTarPerm extractEntry styles/documentationview.less
+667 silly gunzTarPerm modified mode [ 'styles/documentationview.less', 438, 420 ]
+668 silly gunzTarPerm extractEntry styles/gutter.atom-text-editor.less
+669 silly gunzTarPerm modified mode [ 'styles/gutter.atom-text-editor.less', 438, 420 ]
+670 silly gunzTarPerm extractEntry views/renameView.html.coffee
+671 silly gunzTarPerm modified mode [ 'views/renameView.html.coffee', 438, 420 ]
+672 silly gunzTarPerm extractEntry views/views.d.ts
+673 silly gunzTarPerm modified mode [ 'views/views.d.ts', 438, 420 ]
+674 verbose write writing to /Users/swadmin/Desktop/node-template/node_modules/atom-typescript/package.json
+675 info preinstall atom-typescript@4.5.6
+676 verbose readDependencies loading dependencies from /Users/swadmin/Desktop/node-template/node_modules/atom-typescript/package.json
+677 silly prepareForInstallMany adding emissary@^1.3.3 from atom-typescript dependencies
+678 silly prepareForInstallMany adding fuzzaldrin@^2.1.0 from atom-typescript dependencies
+679 silly prepareForInstallMany adding glob-expand@0.0.2 from atom-typescript dependencies
+680 silly prepareForInstallMany adding mkdirp@^0.5.0 from atom-typescript dependencies
+681 silly prepareForInstallMany adding season@^5.1.4 from atom-typescript dependencies
+682 silly prepareForInstallMany adding typescript@https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78 from atom-typescript dependencies
+683 silly prepareForInstallMany adding escape-html@^1.0.1 from atom-typescript dependencies
+684 silly prepareForInstallMany adding atom-space-pen-views@^2.0.4 from atom-typescript dependencies
+685 silly prepareForInstallMany adding atom-package-dependencies@https://github.com/basarat/atom-package-dependencies/archive/cb1.tar.gz from atom-typescript dependencies
+686 silly prepareForInstallMany adding basarat-text-buffer@6.0.0 from atom-typescript dependencies
+687 silly prepareForInstallMany adding d3@^3.5.5 from atom-typescript dependencies
+688 verbose readDependencies loading dependencies from /Users/swadmin/Desktop/node-template/node_modules/atom-typescript/package.json
+689 silly cache add args [ 'fuzzaldrin@^2.1.0', null ]
+690 verbose cache add spec fuzzaldrin@^2.1.0
+691 silly cache add parsed spec Result {
+691 silly cache add   raw: 'fuzzaldrin@^2.1.0',
+691 silly cache add   scope: null,
+691 silly cache add   name: 'fuzzaldrin',
+691 silly cache add   rawSpec: '^2.1.0',
+691 silly cache add   spec: '>=2.1.0 <3.0.0',
+691 silly cache add   type: 'range' }
+692 silly addNamed fuzzaldrin@>=2.1.0 <3.0.0
+693 verbose addNamed ">=2.1.0 <3.0.0" is a valid semver range for fuzzaldrin
+694 silly addNameRange { name: 'fuzzaldrin', range: '>=2.1.0 <3.0.0', hasData: false }
+695 silly mapToRegistry name fuzzaldrin
+696 silly mapToRegistry using default registry
+697 silly mapToRegistry registry https://registry.npmjs.org/
+698 silly mapToRegistry uri https://registry.npmjs.org/fuzzaldrin
+699 verbose addNameRange registry:https://registry.npmjs.org/fuzzaldrin not in flight; fetching
+700 silly cache add args [ 'glob-expand@0.0.2', null ]
+701 verbose cache add spec glob-expand@0.0.2
+702 silly cache add parsed spec Result {
+702 silly cache add   raw: 'glob-expand@0.0.2',
+702 silly cache add   scope: null,
+702 silly cache add   name: 'glob-expand',
+702 silly cache add   rawSpec: '0.0.2',
+702 silly cache add   spec: '0.0.2',
+702 silly cache add   type: 'version' }
+703 silly addNamed glob-expand@0.0.2
+704 verbose addNamed "0.0.2" is a plain semver version for glob-expand
+705 silly mapToRegistry name glob-expand
+706 silly mapToRegistry using default registry
+707 silly mapToRegistry registry https://registry.npmjs.org/
+708 silly mapToRegistry uri https://registry.npmjs.org/glob-expand
+709 verbose addNameVersion registry:https://registry.npmjs.org/glob-expand not in flight; fetching
+710 silly cache add args [ 'mkdirp@^0.5.0', null ]
+711 verbose cache add spec mkdirp@^0.5.0
+712 silly cache add parsed spec Result {
+712 silly cache add   raw: 'mkdirp@^0.5.0',
+712 silly cache add   scope: null,
+712 silly cache add   name: 'mkdirp',
+712 silly cache add   rawSpec: '^0.5.0',
+712 silly cache add   spec: '>=0.5.0 <0.6.0',
+712 silly cache add   type: 'range' }
+713 silly addNamed mkdirp@>=0.5.0 <0.6.0
+714 verbose addNamed ">=0.5.0 <0.6.0" is a valid semver range for mkdirp
+715 silly addNameRange { name: 'mkdirp', range: '>=0.5.0 <0.6.0', hasData: false }
+716 silly mapToRegistry name mkdirp
+717 silly mapToRegistry using default registry
+718 silly mapToRegistry registry https://registry.npmjs.org/
+719 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+720 verbose addNameRange registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+721 silly cache add args [ 'season@^5.1.4', null ]
+722 verbose cache add spec season@^5.1.4
+723 silly cache add parsed spec Result {
+723 silly cache add   raw: 'season@^5.1.4',
+723 silly cache add   scope: null,
+723 silly cache add   name: 'season',
+723 silly cache add   rawSpec: '^5.1.4',
+723 silly cache add   spec: '>=5.1.4 <6.0.0',
+723 silly cache add   type: 'range' }
+724 silly addNamed season@>=5.1.4 <6.0.0
+725 verbose addNamed ">=5.1.4 <6.0.0" is a valid semver range for season
+726 silly addNameRange { name: 'season', range: '>=5.1.4 <6.0.0', hasData: false }
+727 silly mapToRegistry name season
+728 silly mapToRegistry using default registry
+729 silly mapToRegistry registry https://registry.npmjs.org/
+730 silly mapToRegistry uri https://registry.npmjs.org/season
+731 verbose addNameRange registry:https://registry.npmjs.org/season not in flight; fetching
+732 silly cache add args [ 'typescript@https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78',
+732 silly cache add   null ]
+733 verbose cache add spec typescript@https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78
+734 silly cache add args [ 'escape-html@^1.0.1', null ]
+735 verbose cache add spec escape-html@^1.0.1
+736 silly cache add parsed spec Result {
+736 silly cache add   raw: 'escape-html@^1.0.1',
+736 silly cache add   scope: null,
+736 silly cache add   name: 'escape-html',
+736 silly cache add   rawSpec: '^1.0.1',
+736 silly cache add   spec: '>=1.0.1 <2.0.0',
+736 silly cache add   type: 'range' }
+737 silly addNamed escape-html@>=1.0.1 <2.0.0
+738 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for escape-html
+739 silly addNameRange { name: 'escape-html', range: '>=1.0.1 <2.0.0', hasData: false }
+740 silly mapToRegistry name escape-html
+741 silly mapToRegistry using default registry
+742 silly mapToRegistry registry https://registry.npmjs.org/
+743 silly mapToRegistry uri https://registry.npmjs.org/escape-html
+744 verbose addNameRange registry:https://registry.npmjs.org/escape-html not in flight; fetching
+745 silly cache add args [ 'atom-space-pen-views@^2.0.4', null ]
+746 verbose cache add spec atom-space-pen-views@^2.0.4
+747 silly cache add parsed spec Result {
+747 silly cache add   raw: 'atom-space-pen-views@^2.0.4',
+747 silly cache add   scope: null,
+747 silly cache add   name: 'atom-space-pen-views',
+747 silly cache add   rawSpec: '^2.0.4',
+747 silly cache add   spec: '>=2.0.4 <3.0.0',
+747 silly cache add   type: 'range' }
+748 silly addNamed atom-space-pen-views@>=2.0.4 <3.0.0
+749 verbose addNamed ">=2.0.4 <3.0.0" is a valid semver range for atom-space-pen-views
+750 silly addNameRange { name: 'atom-space-pen-views',
+750 silly addNameRange   range: '>=2.0.4 <3.0.0',
+750 silly addNameRange   hasData: false }
+751 silly mapToRegistry name atom-space-pen-views
+752 silly mapToRegistry using default registry
+753 silly mapToRegistry registry https://registry.npmjs.org/
+754 silly mapToRegistry uri https://registry.npmjs.org/atom-space-pen-views
+755 verbose addNameRange registry:https://registry.npmjs.org/atom-space-pen-views not in flight; fetching
+756 silly cache add args [ 'atom-package-dependencies@https://github.com/basarat/atom-package-dependencies/archive/cb1.tar.gz',
+756 silly cache add   null ]
+757 verbose cache add spec atom-package-dependencies@https://github.com/basarat/atom-package-dependencies/archive/cb1.tar.gz
+758 silly cache add args [ 'basarat-text-buffer@6.0.0', null ]
+759 verbose cache add spec basarat-text-buffer@6.0.0
+760 silly cache add parsed spec Result {
+760 silly cache add   raw: 'basarat-text-buffer@6.0.0',
+760 silly cache add   scope: null,
+760 silly cache add   name: 'basarat-text-buffer',
+760 silly cache add   rawSpec: '6.0.0',
+760 silly cache add   spec: '6.0.0',
+760 silly cache add   type: 'version' }
+761 silly addNamed basarat-text-buffer@6.0.0
+762 verbose addNamed "6.0.0" is a plain semver version for basarat-text-buffer
+763 silly mapToRegistry name basarat-text-buffer
+764 silly mapToRegistry using default registry
+765 silly mapToRegistry registry https://registry.npmjs.org/
+766 silly mapToRegistry uri https://registry.npmjs.org/basarat-text-buffer
+767 verbose addNameVersion registry:https://registry.npmjs.org/basarat-text-buffer not in flight; fetching
+768 silly cache add args [ 'd3@^3.5.5', null ]
+769 verbose cache add spec d3@^3.5.5
+770 silly cache add parsed spec Result {
+770 silly cache add   raw: 'd3@^3.5.5',
+770 silly cache add   scope: null,
+770 silly cache add   name: 'd3',
+770 silly cache add   rawSpec: '^3.5.5',
+770 silly cache add   spec: '>=3.5.5 <4.0.0',
+770 silly cache add   type: 'range' }
+771 silly addNamed d3@>=3.5.5 <4.0.0
+772 verbose addNamed ">=3.5.5 <4.0.0" is a valid semver range for d3
+773 silly addNameRange { name: 'd3', range: '>=3.5.5 <4.0.0', hasData: false }
+774 silly mapToRegistry name d3
+775 silly mapToRegistry using default registry
+776 silly mapToRegistry registry https://registry.npmjs.org/
+777 silly mapToRegistry uri https://registry.npmjs.org/d3
+778 verbose addNameRange registry:https://registry.npmjs.org/d3 not in flight; fetching
+779 silly cache add args [ 'emissary@^1.3.3', null ]
+780 verbose cache add spec emissary@^1.3.3
+781 silly cache add parsed spec Result {
+781 silly cache add   raw: 'emissary@^1.3.3',
+781 silly cache add   scope: null,
+781 silly cache add   name: 'emissary',
+781 silly cache add   rawSpec: '^1.3.3',
+781 silly cache add   spec: '>=1.3.3 <2.0.0',
+781 silly cache add   type: 'range' }
+782 silly addNamed emissary@>=1.3.3 <2.0.0
+783 verbose addNamed ">=1.3.3 <2.0.0" is a valid semver range for emissary
+784 silly addNameRange { name: 'emissary', range: '>=1.3.3 <2.0.0', hasData: false }
+785 silly mapToRegistry name emissary
+786 silly mapToRegistry using default registry
+787 silly mapToRegistry registry https://registry.npmjs.org/
+788 silly mapToRegistry uri https://registry.npmjs.org/emissary
+789 verbose addNameRange registry:https://registry.npmjs.org/emissary not in flight; fetching
+790 verbose request uri https://registry.npmjs.org/fuzzaldrin
+791 verbose request no auth needed
+792 info attempt registry request try #1 at 12:16:23 PM
+793 http request GET https://registry.npmjs.org/fuzzaldrin
+794 verbose request uri https://registry.npmjs.org/glob-expand
+795 verbose request no auth needed
+796 info attempt registry request try #1 at 12:16:23 PM
+797 http request GET https://registry.npmjs.org/glob-expand
+798 verbose request uri https://registry.npmjs.org/season
+799 verbose request no auth needed
+800 info attempt registry request try #1 at 12:16:23 PM
+801 http request GET https://registry.npmjs.org/season
+802 silly cache add parsed spec Result {
+802 silly cache add   raw: 'typescript@https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78',
+802 silly cache add   scope: null,
+802 silly cache add   name: 'typescript',
+802 silly cache add   rawSpec: 'https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78',
+802 silly cache add   spec: 'https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78',
+802 silly cache add   type: 'remote' }
+803 silly mapToRegistry name typescript@https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78
+804 silly mapToRegistry using default registry
+805 silly mapToRegistry registry https://registry.npmjs.org/
+806 silly mapToRegistry uri https://registry.npmjs.org/typescript@https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78
+807 verbose addRemoteTarball https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78 not in flight; adding
+808 verbose addRemoteTarball [ 'https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78',
+808 verbose addRemoteTarball   null ]
+809 verbose request uri https://registry.npmjs.org/atom-space-pen-views
+810 verbose request no auth needed
+811 info attempt registry request try #1 at 12:16:23 PM
+812 http request GET https://registry.npmjs.org/atom-space-pen-views
+813 silly cache add parsed spec Result {
+813 silly cache add   raw: 'atom-package-dependencies@https://github.com/basarat/atom-package-dependencies/archive/cb1.tar.gz',
+813 silly cache add   scope: null,
+813 silly cache add   name: 'atom-package-dependencies',
+813 silly cache add   rawSpec: 'https://github.com/basarat/atom-package-dependencies/archive/cb1.tar.gz',
+813 silly cache add   spec: 'https://github.com/basarat/atom-package-dependencies/archive/cb1.tar.gz',
+813 silly cache add   type: 'remote' }
+814 silly mapToRegistry name atom-package-dependencies@https://github.com/basarat/atom-package-dependencies/archive/cb1.tar.gz
+815 silly mapToRegistry using default registry
+816 silly mapToRegistry registry https://registry.npmjs.org/
+817 silly mapToRegistry uri https://registry.npmjs.org/atom-package-dependencies@https://github.com/basarat/atom-package-dependencies/archive/cb1.tar.gz
+818 verbose addRemoteTarball https://github.com/basarat/atom-package-dependencies/archive/cb1.tar.gz not in flight; adding
+819 verbose addRemoteTarball [ 'https://github.com/basarat/atom-package-dependencies/archive/cb1.tar.gz',
+819 verbose addRemoteTarball   null ]
+820 verbose request uri https://registry.npmjs.org/basarat-text-buffer
+821 verbose request no auth needed
+822 info attempt registry request try #1 at 12:16:23 PM
+823 http request GET https://registry.npmjs.org/basarat-text-buffer
+824 verbose request uri https://registry.npmjs.org/d3
+825 verbose request no auth needed
+826 info attempt registry request try #1 at 12:16:23 PM
+827 http request GET https://registry.npmjs.org/d3
+828 verbose request uri https://registry.npmjs.org/emissary
+829 verbose request no auth needed
+830 info attempt registry request try #1 at 12:16:23 PM
+831 http request GET https://registry.npmjs.org/emissary
+832 verbose request uri https://registry.npmjs.org/mkdirp
+833 verbose request no auth needed
+834 info attempt registry request try #1 at 12:16:23 PM
+835 verbose etag "10UA0WWEAK5WJKBPOFHMZWPWQ"
+836 http request GET https://registry.npmjs.org/mkdirp
+837 info retry fetch attempt 1 at 12:16:23 PM
+838 info attempt registry request try #1 at 12:16:23 PM
+839 http fetch GET https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78
+840 info retry fetch attempt 1 at 12:16:23 PM
+841 info attempt registry request try #1 at 12:16:23 PM
+842 http fetch GET https://github.com/basarat/atom-package-dependencies/archive/cb1.tar.gz
+843 verbose request uri https://registry.npmjs.org/escape-html
+844 verbose request no auth needed
+845 info attempt registry request try #1 at 12:16:23 PM
+846 verbose etag "1YNNTHWE6AK1WREIMH2EU3K9H"
+847 http request GET https://registry.npmjs.org/escape-html
+848 http 200 https://registry.npmjs.org/glob-expand
+849 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+849 verbose headers   etag: '"6Y9L3DYDPRKJLXF8P4V9P5ARZ"',
+849 verbose headers   'content-type': 'application/json',
+849 verbose headers   'cache-control': 'max-age=300',
+849 verbose headers   'content-length': '6621',
+849 verbose headers   'accept-ranges': 'bytes',
+849 verbose headers   date: 'Mon, 21 Mar 2016 19:16:23 GMT',
+849 verbose headers   via: '1.1 varnish',
+849 verbose headers   age: '146',
+849 verbose headers   connection: 'keep-alive',
+849 verbose headers   'x-served-by': 'cache-sjc3126-SJC',
+849 verbose headers   'x-cache': 'HIT',
+849 verbose headers   'x-cache-hits': '1',
+849 verbose headers   'x-timer': 'S1458587783.993491,VS0,VE0',
+849 verbose headers   vary: 'Accept' }
+850 silly get cb [ 200,
+850 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+850 silly get     etag: '"6Y9L3DYDPRKJLXF8P4V9P5ARZ"',
+850 silly get     'content-type': 'application/json',
+850 silly get     'cache-control': 'max-age=300',
+850 silly get     'content-length': '6621',
+850 silly get     'accept-ranges': 'bytes',
+850 silly get     date: 'Mon, 21 Mar 2016 19:16:23 GMT',
+850 silly get     via: '1.1 varnish',
+850 silly get     age: '146',
+850 silly get     connection: 'keep-alive',
+850 silly get     'x-served-by': 'cache-sjc3126-SJC',
+850 silly get     'x-cache': 'HIT',
+850 silly get     'x-cache-hits': '1',
+850 silly get     'x-timer': 'S1458587783.993491,VS0,VE0',
+850 silly get     vary: 'Accept' } ]
+851 verbose get saving glob-expand to /Users/swadmin/.npm/registry.npmjs.org/glob-expand/.cache.json
+852 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+853 silly mapToRegistry name glob-expand
+854 silly mapToRegistry using default registry
+855 silly mapToRegistry registry https://registry.npmjs.org/
+856 silly mapToRegistry uri https://registry.npmjs.org/glob-expand
+857 verbose addRemoteTarball https://registry.npmjs.org/glob-expand/-/glob-expand-0.0.2.tgz not in flight; adding
+858 verbose addRemoteTarball [ 'https://registry.npmjs.org/glob-expand/-/glob-expand-0.0.2.tgz',
+858 verbose addRemoteTarball   '00b11cb522f808c4d0364a5617e1b9f80488e5e8' ]
+859 info retry fetch attempt 1 at 12:16:23 PM
+860 info attempt registry request try #1 at 12:16:23 PM
+861 http fetch GET https://registry.npmjs.org/glob-expand/-/glob-expand-0.0.2.tgz
+862 http 304 https://registry.npmjs.org/escape-html
+863 verbose headers { date: 'Mon, 21 Mar 2016 19:16:23 GMT',
+863 verbose headers   via: '1.1 varnish',
+863 verbose headers   'cache-control': 'max-age=300',
+863 verbose headers   etag: '"1YNNTHWE6AK1WREIMH2EU3K9H"',
+863 verbose headers   age: '220',
+863 verbose headers   connection: 'keep-alive',
+863 verbose headers   'x-served-by': 'cache-sjc3132-SJC',
+863 verbose headers   'x-cache': 'HIT',
+863 verbose headers   'x-cache-hits': '11',
+863 verbose headers   'x-timer': 'S1458587783.994927,VS0,VE0',
+863 verbose headers   vary: 'Accept' }
+864 silly get cb [ 304,
+864 silly get   { date: 'Mon, 21 Mar 2016 19:16:23 GMT',
+864 silly get     via: '1.1 varnish',
+864 silly get     'cache-control': 'max-age=300',
+864 silly get     etag: '"1YNNTHWE6AK1WREIMH2EU3K9H"',
+864 silly get     age: '220',
+864 silly get     connection: 'keep-alive',
+864 silly get     'x-served-by': 'cache-sjc3132-SJC',
+864 silly get     'x-cache': 'HIT',
+864 silly get     'x-cache-hits': '11',
+864 silly get     'x-timer': 'S1458587783.994927,VS0,VE0',
+864 silly get     vary: 'Accept' } ]
+865 verbose etag https://registry.npmjs.org/escape-html from cache
+866 verbose get saving escape-html to /Users/swadmin/.npm/registry.npmjs.org/escape-html/.cache.json
+867 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+868 http 304 https://registry.npmjs.org/mkdirp
+869 verbose headers { date: 'Mon, 21 Mar 2016 19:16:23 GMT',
+869 verbose headers   via: '1.1 varnish',
+869 verbose headers   'cache-control': 'max-age=300',
+869 verbose headers   etag: '"10UA0WWEAK5WJKBPOFHMZWPWQ"',
+869 verbose headers   age: '8',
+869 verbose headers   connection: 'keep-alive',
+869 verbose headers   'x-served-by': 'cache-sjc3132-SJC',
+869 verbose headers   'x-cache': 'HIT',
+869 verbose headers   'x-cache-hits': '4',
+869 verbose headers   'x-timer': 'S1458587783.994479,VS0,VE0',
+869 verbose headers   vary: 'Accept' }
+870 silly get cb [ 304,
+870 silly get   { date: 'Mon, 21 Mar 2016 19:16:23 GMT',
+870 silly get     via: '1.1 varnish',
+870 silly get     'cache-control': 'max-age=300',
+870 silly get     etag: '"10UA0WWEAK5WJKBPOFHMZWPWQ"',
+870 silly get     age: '8',
+870 silly get     connection: 'keep-alive',
+870 silly get     'x-served-by': 'cache-sjc3132-SJC',
+870 silly get     'x-cache': 'HIT',
+870 silly get     'x-cache-hits': '4',
+870 silly get     'x-timer': 'S1458587783.994479,VS0,VE0',
+870 silly get     vary: 'Accept' } ]
+871 verbose etag https://registry.npmjs.org/mkdirp from cache
+872 verbose get saving mkdirp to /Users/swadmin/.npm/registry.npmjs.org/mkdirp/.cache.json
+873 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+874 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.5.0 <0.6.0', hasData: true }
+875 silly addNameRange versions [ 'mkdirp',
+875 silly addNameRange   [ '0.0.1',
+875 silly addNameRange     '0.0.2',
+875 silly addNameRange     '0.0.3',
+875 silly addNameRange     '0.0.4',
+875 silly addNameRange     '0.0.5',
+875 silly addNameRange     '0.0.6',
+875 silly addNameRange     '0.0.7',
+875 silly addNameRange     '0.1.0',
+875 silly addNameRange     '0.2.0',
+875 silly addNameRange     '0.2.1',
+875 silly addNameRange     '0.2.2',
+875 silly addNameRange     '0.3.0',
+875 silly addNameRange     '0.3.1',
+875 silly addNameRange     '0.3.2',
+875 silly addNameRange     '0.3.3',
+875 silly addNameRange     '0.3.4',
+875 silly addNameRange     '0.3.5',
+875 silly addNameRange     '0.4.0',
+875 silly addNameRange     '0.4.1',
+875 silly addNameRange     '0.4.2',
+875 silly addNameRange     '0.5.0',
+875 silly addNameRange     '0.5.1' ] ]
+876 silly addNamed mkdirp@0.5.1
+877 verbose addNamed "0.5.1" is a plain semver version for mkdirp
+878 silly addNameRange number 2 { name: 'escape-html', range: '>=1.0.1 <2.0.0', hasData: true }
+879 silly addNameRange versions [ 'escape-html',
+879 silly addNameRange   [ '0.0.1', '1.0.0', '1.0.1', '1.0.2', '1.0.3' ] ]
+880 silly addNamed escape-html@1.0.3
+881 verbose addNamed "1.0.3" is a plain semver version for escape-html
+882 silly cache afterAdd mkdirp@0.5.1
+883 verbose afterAdd /Users/swadmin/.npm/mkdirp/0.5.1/package/package.json not in flight; writing
+884 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+885 silly cache afterAdd escape-html@1.0.3
+886 verbose afterAdd /Users/swadmin/.npm/escape-html/1.0.3/package/package.json not in flight; writing
+887 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+888 verbose afterAdd /Users/swadmin/.npm/escape-html/1.0.3/package/package.json written
+889 verbose afterAdd /Users/swadmin/.npm/mkdirp/0.5.1/package/package.json written
+890 http 200 https://registry.npmjs.org/fuzzaldrin
+891 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+891 verbose headers   etag: '"CHYJXGTA7QS279A8EQAHGMZFV"',
+891 verbose headers   'content-type': 'application/json',
+891 verbose headers   'cache-control': 'max-age=300',
+891 verbose headers   'content-length': '18625',
+891 verbose headers   'accept-ranges': 'bytes',
+891 verbose headers   date: 'Mon, 21 Mar 2016 19:16:24 GMT',
+891 verbose headers   via: '1.1 varnish',
+891 verbose headers   age: '13',
+891 verbose headers   connection: 'keep-alive',
+891 verbose headers   'x-served-by': 'cache-sjc3135-SJC',
+891 verbose headers   'x-cache': 'HIT',
+891 verbose headers   'x-cache-hits': '1',
+891 verbose headers   'x-timer': 'S1458587784.000735,VS0,VE0',
+891 verbose headers   vary: 'Accept' }
+892 silly get cb [ 200,
+892 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+892 silly get     etag: '"CHYJXGTA7QS279A8EQAHGMZFV"',
+892 silly get     'content-type': 'application/json',
+892 silly get     'cache-control': 'max-age=300',
+892 silly get     'content-length': '18625',
+892 silly get     'accept-ranges': 'bytes',
+892 silly get     date: 'Mon, 21 Mar 2016 19:16:24 GMT',
+892 silly get     via: '1.1 varnish',
+892 silly get     age: '13',
+892 silly get     connection: 'keep-alive',
+892 silly get     'x-served-by': 'cache-sjc3135-SJC',
+892 silly get     'x-cache': 'HIT',
+892 silly get     'x-cache-hits': '1',
+892 silly get     'x-timer': 'S1458587784.000735,VS0,VE0',
+892 silly get     vary: 'Accept' } ]
+893 verbose get saving fuzzaldrin to /Users/swadmin/.npm/registry.npmjs.org/fuzzaldrin/.cache.json
+894 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+895 silly addNameRange number 2 { name: 'fuzzaldrin', range: '>=2.1.0 <3.0.0', hasData: true }
+896 silly addNameRange versions [ 'fuzzaldrin',
+896 silly addNameRange   [ '0.1.0',
+896 silly addNameRange     '0.2.0',
+896 silly addNameRange     '0.3.0',
+896 silly addNameRange     '0.4.0',
+896 silly addNameRange     '0.5.0',
+896 silly addNameRange     '0.6.0',
+896 silly addNameRange     '0.7.0',
+896 silly addNameRange     '0.8.0',
+896 silly addNameRange     '1.0.0',
+896 silly addNameRange     '1.1.0',
+896 silly addNameRange     '1.2.0',
+896 silly addNameRange     '2.0.0',
+896 silly addNameRange     '2.1.0' ] ]
+897 silly addNamed fuzzaldrin@2.1.0
+898 verbose addNamed "2.1.0" is a plain semver version for fuzzaldrin
+899 silly mapToRegistry name fuzzaldrin
+900 silly mapToRegistry using default registry
+901 silly mapToRegistry registry https://registry.npmjs.org/
+902 silly mapToRegistry uri https://registry.npmjs.org/fuzzaldrin
+903 verbose addRemoteTarball https://registry.npmjs.org/fuzzaldrin/-/fuzzaldrin-2.1.0.tgz not in flight; adding
+904 verbose addRemoteTarball [ 'https://registry.npmjs.org/fuzzaldrin/-/fuzzaldrin-2.1.0.tgz',
+904 verbose addRemoteTarball   '90204c3e2fdaa6941bb28d16645d418063a90e9b' ]
+905 info retry fetch attempt 1 at 12:16:23 PM
+906 info attempt registry request try #1 at 12:16:23 PM
+907 http fetch GET https://registry.npmjs.org/fuzzaldrin/-/fuzzaldrin-2.1.0.tgz
+908 http 200 https://registry.npmjs.org/basarat-text-buffer
+909 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+909 verbose headers   etag: '"9TVUC1E97VKJG8IDVEL32GJVW"',
+909 verbose headers   'content-type': 'application/json',
+909 verbose headers   'cache-control': 'max-age=300',
+909 verbose headers   'content-length': '3920',
+909 verbose headers   'accept-ranges': 'bytes',
+909 verbose headers   date: 'Mon, 21 Mar 2016 19:16:24 GMT',
+909 verbose headers   via: '1.1 varnish',
+909 verbose headers   age: '0',
+909 verbose headers   connection: 'keep-alive',
+909 verbose headers   'x-served-by': 'cache-sjc3134-SJC',
+909 verbose headers   'x-cache': 'HIT',
+909 verbose headers   'x-cache-hits': '1',
+909 verbose headers   'x-timer': 'S1458587783.993033,VS0,VE103',
+909 verbose headers   vary: 'Accept' }
+910 silly get cb [ 200,
+910 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+910 silly get     etag: '"9TVUC1E97VKJG8IDVEL32GJVW"',
+910 silly get     'content-type': 'application/json',
+910 silly get     'cache-control': 'max-age=300',
+910 silly get     'content-length': '3920',
+910 silly get     'accept-ranges': 'bytes',
+910 silly get     date: 'Mon, 21 Mar 2016 19:16:24 GMT',
+910 silly get     via: '1.1 varnish',
+910 silly get     age: '0',
+910 silly get     connection: 'keep-alive',
+910 silly get     'x-served-by': 'cache-sjc3134-SJC',
+910 silly get     'x-cache': 'HIT',
+910 silly get     'x-cache-hits': '1',
+910 silly get     'x-timer': 'S1458587783.993033,VS0,VE103',
+910 silly get     vary: 'Accept' } ]
+911 verbose get saving basarat-text-buffer to /Users/swadmin/.npm/registry.npmjs.org/basarat-text-buffer/.cache.json
+912 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+913 silly mapToRegistry name basarat-text-buffer
+914 silly mapToRegistry using default registry
+915 silly mapToRegistry registry https://registry.npmjs.org/
+916 silly mapToRegistry uri https://registry.npmjs.org/basarat-text-buffer
+917 verbose addRemoteTarball https://registry.npmjs.org/basarat-text-buffer/-/basarat-text-buffer-6.0.0.tgz not in flight; adding
+918 verbose addRemoteTarball [ 'https://registry.npmjs.org/basarat-text-buffer/-/basarat-text-buffer-6.0.0.tgz',
+918 verbose addRemoteTarball   '19b578dae7c09b281244f5075a663bff2376889e' ]
+919 info retry fetch attempt 1 at 12:16:23 PM
+920 info attempt registry request try #1 at 12:16:23 PM
+921 http fetch GET https://registry.npmjs.org/basarat-text-buffer/-/basarat-text-buffer-6.0.0.tgz
+922 http 200 https://registry.npmjs.org/season
+923 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+923 verbose headers   etag: '"917BZS2GESQHU9U6PAEKU0E1F"',
+923 verbose headers   'content-type': 'application/json',
+923 verbose headers   'cache-control': 'max-age=300',
+923 verbose headers   'content-length': '49644',
+923 verbose headers   'accept-ranges': 'bytes',
+923 verbose headers   date: 'Mon, 21 Mar 2016 19:16:24 GMT',
+923 verbose headers   via: '1.1 varnish',
+923 verbose headers   age: '0',
+923 verbose headers   connection: 'keep-alive',
+923 verbose headers   'x-served-by': 'cache-sjc3129-SJC',
+923 verbose headers   'x-cache': 'HIT',
+923 verbose headers   'x-cache-hits': '1',
+923 verbose headers   'x-timer': 'S1458587783.993916,VS0,VE45',
+923 verbose headers   vary: 'Accept' }
+924 silly get cb [ 200,
+924 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+924 silly get     etag: '"917BZS2GESQHU9U6PAEKU0E1F"',
+924 silly get     'content-type': 'application/json',
+924 silly get     'cache-control': 'max-age=300',
+924 silly get     'content-length': '49644',
+924 silly get     'accept-ranges': 'bytes',
+924 silly get     date: 'Mon, 21 Mar 2016 19:16:24 GMT',
+924 silly get     via: '1.1 varnish',
+924 silly get     age: '0',
+924 silly get     connection: 'keep-alive',
+924 silly get     'x-served-by': 'cache-sjc3129-SJC',
+924 silly get     'x-cache': 'HIT',
+924 silly get     'x-cache-hits': '1',
+924 silly get     'x-timer': 'S1458587783.993916,VS0,VE45',
+924 silly get     vary: 'Accept' } ]
+925 verbose get saving season to /Users/swadmin/.npm/registry.npmjs.org/season/.cache.json
+926 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+927 silly addNameRange number 2 { name: 'season', range: '>=5.1.4 <6.0.0', hasData: true }
+928 silly addNameRange versions [ 'season',
+928 silly addNameRange   [ '0.1.0',
+928 silly addNameRange     '0.2.0',
+928 silly addNameRange     '0.3.0',
+928 silly addNameRange     '0.5.0',
+928 silly addNameRange     '0.4.0',
+928 silly addNameRange     '0.6.0',
+928 silly addNameRange     '0.7.0',
+928 silly addNameRange     '0.9.0',
+928 silly addNameRange     '0.10.0',
+928 silly addNameRange     '0.11.0',
+928 silly addNameRange     '0.12.0',
+928 silly addNameRange     '0.13.0',
+928 silly addNameRange     '0.14.0',
+928 silly addNameRange     '1.0.0',
+928 silly addNameRange     '1.0.1',
+928 silly addNameRange     '1.0.2',
+928 silly addNameRange     '2.0.0',
+928 silly addNameRange     '3.0.0',
+928 silly addNameRange     '4.0.0',
+928 silly addNameRange     '4.0.1',
+928 silly addNameRange     '4.0.2',
+928 silly addNameRange     '4.0.3',
+928 silly addNameRange     '5.0.0',
+928 silly addNameRange     '5.0.1',
+928 silly addNameRange     '5.0.2',
+928 silly addNameRange     '5.0.3',
+928 silly addNameRange     '5.0.4',
+928 silly addNameRange     '5.0.5',
+928 silly addNameRange     '5.1.0',
+928 silly addNameRange     '5.1.1',
+928 silly addNameRange     '5.1.2',
+928 silly addNameRange     '5.1.3',
+928 silly addNameRange     '5.1.4',
+928 silly addNameRange     '5.1.5',
+928 silly addNameRange     '5.2.0',
+928 silly addNameRange     '5.3.0' ] ]
+929 silly addNamed season@5.3.0
+930 verbose addNamed "5.3.0" is a plain semver version for season
+931 silly mapToRegistry name season
+932 silly mapToRegistry using default registry
+933 silly mapToRegistry registry https://registry.npmjs.org/
+934 silly mapToRegistry uri https://registry.npmjs.org/season
+935 verbose addRemoteTarball https://registry.npmjs.org/season/-/season-5.3.0.tgz not in flight; adding
+936 verbose addRemoteTarball [ 'https://registry.npmjs.org/season/-/season-5.3.0.tgz',
+936 verbose addRemoteTarball   '282d397e6416f44923287bd55450ad080b95db65' ]
+937 info retry fetch attempt 1 at 12:16:23 PM
+938 info attempt registry request try #1 at 12:16:23 PM
+939 http fetch GET https://registry.npmjs.org/season/-/season-5.3.0.tgz
+940 http 200 https://registry.npmjs.org/atom-space-pen-views
+941 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+941 verbose headers   etag: '"5L5M6P6ZNSFPPZLY1KBBV4YQA"',
+941 verbose headers   'content-type': 'application/json',
+941 verbose headers   'cache-control': 'max-age=300',
+941 verbose headers   'content-length': '50357',
+941 verbose headers   'accept-ranges': 'bytes',
+941 verbose headers   date: 'Mon, 21 Mar 2016 19:16:24 GMT',
+941 verbose headers   via: '1.1 varnish',
+941 verbose headers   age: '0',
+941 verbose headers   connection: 'keep-alive',
+941 verbose headers   'x-served-by': 'cache-sjc3120-SJC',
+941 verbose headers   'x-cache': 'HIT',
+941 verbose headers   'x-cache-hits': '1',
+941 verbose headers   'x-timer': 'S1458587783.993397,VS0,VE97',
+941 verbose headers   vary: 'Accept' }
+942 silly get cb [ 200,
+942 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+942 silly get     etag: '"5L5M6P6ZNSFPPZLY1KBBV4YQA"',
+942 silly get     'content-type': 'application/json',
+942 silly get     'cache-control': 'max-age=300',
+942 silly get     'content-length': '50357',
+942 silly get     'accept-ranges': 'bytes',
+942 silly get     date: 'Mon, 21 Mar 2016 19:16:24 GMT',
+942 silly get     via: '1.1 varnish',
+942 silly get     age: '0',
+942 silly get     connection: 'keep-alive',
+942 silly get     'x-served-by': 'cache-sjc3120-SJC',
+942 silly get     'x-cache': 'HIT',
+942 silly get     'x-cache-hits': '1',
+942 silly get     'x-timer': 'S1458587783.993397,VS0,VE97',
+942 silly get     vary: 'Accept' } ]
+943 verbose get saving atom-space-pen-views to /Users/swadmin/.npm/registry.npmjs.org/atom-space-pen-views/.cache.json
+944 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+945 silly addNameRange number 2 { name: 'atom-space-pen-views',
+945 silly addNameRange   range: '>=2.0.4 <3.0.0',
+945 silly addNameRange   hasData: true }
+946 silly addNameRange versions [ 'atom-space-pen-views',
+946 silly addNameRange   [ '0.1.0',
+946 silly addNameRange     '0.2.0',
+946 silly addNameRange     '0.3.0',
+946 silly addNameRange     '0.4.0',
+946 silly addNameRange     '0.5.0',
+946 silly addNameRange     '0.6.0',
+946 silly addNameRange     '0.7.0',
+946 silly addNameRange     '0.8.0',
+946 silly addNameRange     '0.9.0',
+946 silly addNameRange     '0.10.0',
+946 silly addNameRange     '0.11.0',
+946 silly addNameRange     '0.13.0',
+946 silly addNameRange     '0.14.0',
+946 silly addNameRange     '0.15.0',
+946 silly addNameRange     '0.16.0',
+946 silly addNameRange     '0.17.0',
+946 silly addNameRange     '0.18.0',
+946 silly addNameRange     '0.19.0',
+946 silly addNameRange     '0.20.0',
+946 silly addNameRange     '0.21.0',
+946 silly addNameRange     '1.0.0',
+946 silly addNameRange     '2.0.0',
+946 silly addNameRange     '2.0.1',
+946 silly addNameRange     '2.0.2',
+946 silly addNameRange     '2.0.3',
+946 silly addNameRange     '2.0.4',
+946 silly addNameRange     '2.0.5',
+946 silly addNameRange     '2.1.0',
+946 silly addNameRange     '2.1.1',
+946 silly addNameRange     '2.2.0' ] ]
+947 silly addNamed atom-space-pen-views@2.2.0
+948 verbose addNamed "2.2.0" is a plain semver version for atom-space-pen-views
+949 silly mapToRegistry name atom-space-pen-views
+950 silly mapToRegistry using default registry
+951 silly mapToRegistry registry https://registry.npmjs.org/
+952 silly mapToRegistry uri https://registry.npmjs.org/atom-space-pen-views
+953 verbose addRemoteTarball https://registry.npmjs.org/atom-space-pen-views/-/atom-space-pen-views-2.2.0.tgz not in flight; adding
+954 verbose addRemoteTarball [ 'https://registry.npmjs.org/atom-space-pen-views/-/atom-space-pen-views-2.2.0.tgz',
+954 verbose addRemoteTarball   'a65b2c920ed02f724014fa7d3e5c3d78fbf59997' ]
+955 info retry fetch attempt 1 at 12:16:23 PM
+956 info attempt registry request try #1 at 12:16:23 PM
+957 http fetch GET https://registry.npmjs.org/atom-space-pen-views/-/atom-space-pen-views-2.2.0.tgz
+958 http 200 https://registry.npmjs.org/d3
+959 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+959 verbose headers   etag: '"B7AACQ0RR9JJVJ4RJPP9CR7N7"',
+959 verbose headers   'content-type': 'application/json',
+959 verbose headers   'cache-control': 'max-age=300',
+959 verbose headers   'content-length': '187216',
+959 verbose headers   'accept-ranges': 'bytes',
+959 verbose headers   date: 'Mon, 21 Mar 2016 19:16:23 GMT',
+959 verbose headers   via: '1.1 varnish',
+959 verbose headers   age: '18',
+959 verbose headers   connection: 'keep-alive',
+959 verbose headers   'x-served-by': 'cache-sjc3125-SJC',
+959 verbose headers   'x-cache': 'HIT',
+959 verbose headers   'x-cache-hits': '2',
+959 verbose headers   'x-timer': 'S1458587783.994825,VS0,VE0',
+959 verbose headers   vary: 'Accept' }
+960 silly get cb [ 200,
+960 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+960 silly get     etag: '"B7AACQ0RR9JJVJ4RJPP9CR7N7"',
+960 silly get     'content-type': 'application/json',
+960 silly get     'cache-control': 'max-age=300',
+960 silly get     'content-length': '187216',
+960 silly get     'accept-ranges': 'bytes',
+960 silly get     date: 'Mon, 21 Mar 2016 19:16:23 GMT',
+960 silly get     via: '1.1 varnish',
+960 silly get     age: '18',
+960 silly get     connection: 'keep-alive',
+960 silly get     'x-served-by': 'cache-sjc3125-SJC',
+960 silly get     'x-cache': 'HIT',
+960 silly get     'x-cache-hits': '2',
+960 silly get     'x-timer': 'S1458587783.994825,VS0,VE0',
+960 silly get     vary: 'Accept' } ]
+961 verbose get saving d3 to /Users/swadmin/.npm/registry.npmjs.org/d3/.cache.json
+962 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+963 silly addNameRange number 2 { name: 'd3', range: '>=3.5.5 <4.0.0', hasData: true }
+964 silly addNameRange versions [ 'd3',
+964 silly addNameRange   [ '1.29.5',
+964 silly addNameRange     '2.1.3',
+964 silly addNameRange     '2.2.1',
+964 silly addNameRange     '2.3.0',
+964 silly addNameRange     '2.3.2',
+964 silly addNameRange     '2.3.3',
+964 silly addNameRange     '2.3.4',
+964 silly addNameRange     '2.4.0',
+964 silly addNameRange     '2.4.1',
+964 silly addNameRange     '2.4.2',
+964 silly addNameRange     '2.5.1',
+964 silly addNameRange     '2.5.2',
+964 silly addNameRange     '2.6.0',
+964 silly addNameRange     '2.7.0',
+964 silly addNameRange     '2.7.2',
+964 silly addNameRange     '2.7.3',
+964 silly addNameRange     '2.7.4',
+964 silly addNameRange     '2.7.5',
+964 silly addNameRange     '2.8.0',
+964 silly addNameRange     '2.8.1',
+964 silly addNameRange     '2.9.0',
+964 silly addNameRange     '2.9.1',
+964 silly addNameRange     '2.9.2',
+964 silly addNameRange     '2.9.3',
+964 silly addNameRange     '2.9.4',
+964 silly addNameRange     '2.9.6',
+964 silly addNameRange     '2.9.7',
+964 silly addNameRange     '2.10.0',
+964 silly addNameRange     '2.10.1',
+964 silly addNameRange     '2.10.3',
+964 silly addNameRange     '3.0.0',
+964 silly addNameRange     '3.0.1',
+964 silly addNameRange     '3.0.2',
+964 silly addNameRange     '3.0.3',
+964 silly addNameRange     '3.0.4',
+964 silly addNameRange     '3.0.5',
+964 silly addNameRange     '3.0.6',
+964 silly addNameRange     '3.0.7',
+964 silly addNameRange     '3.0.8',
+964 silly addNameRange     '3.1.0',
+964 silly addNameRange     '3.1.1',
+964 silly addNameRange     '3.1.2',
+964 silly addNameRange     '3.1.3',
+964 silly addNameRange     '3.1.4',
+964 silly addNameRange     '3.1.5',
+964 silly addNameRange     '3.1.6',
+964 silly addNameRange     '3.1.7',
+964 silly addNameRange     '3.1.8',
+964 silly addNameRange     '3.1.9',
+964 silly addNameRange     '3.1.10',
+964 silly addNameRange     '3.2.0',
+964 silly addNameRange     '3.2.1',
+964 silly addNameRange     '3.2.2',
+964 silly addNameRange     '3.2.3',
+964 silly addNameRange     '3.2.4',
+964 silly addNameRange     '3.2.5',
+964 silly addNameRange     '3.2.6',
+964 silly addNameRange     '3.2.7',
+964 silly addNameRange     '3.2.8',
+964 silly addNameRange     '3.3.0',
+964 silly addNameRange     '3.3.1',
+964 silly addNameRange     '3.3.2',
+964 silly addNameRange     '3.3.3',
+964 silly addNameRange     '3.3.4',
+964 silly addNameRange     '3.3.5',
+964 silly addNameRange     '3.3.6',
+964 silly addNameRange     '3.3.7',
+964 silly addNameRange     '3.3.8',
+964 silly addNameRange     '3.3.9',
+964 silly addNameRange     '3.3.10',
+964 silly addNameRange     '3.3.11',
+964 silly addNameRange     '3.3.12',
+964 silly addNameRange     '3.3.13',
+964 silly addNameRange     '3.4.0',
+964 silly addNameRange     '3.4.1',
+964 silly addNameRange     '3.4.2',
+964 silly addNameRange     '3.4.3',
+964 silly addNameRange     '3.4.4',
+964 silly addNameRange     '3.4.5',
+964 silly addNameRange     '3.4.6',
+964 silly addNameRange     '3.4.7',
+964 silly addNameRange     '3.4.8',
+964 silly addNameRange     '3.4.9',
+964 silly addNameRange     '3.4.10',
+964 silly addNameRange     '3.4.11',
+964 silly addNameRange     '3.4.12',
+964 silly addNameRange     '3.4.13',
+964 silly addNameRange     '3.5.0',
+964 silly addNameRange     '3.5.1',
+964 silly addNameRange     '3.5.2',
+964 silly addNameRange     '3.5.3',
+964 silly addNameRange     '3.5.4',
+964 silly addNameRange     '3.5.5',
+964 silly addNameRange     '3.5.6',
+964 silly addNameRange     '3.5.7',
+964 silly addNameRange     '3.5.8',
+964 silly addNameRange     '3.5.9',
+964 silly addNameRange     '3.5.10',
+964 silly addNameRange     '3.5.11',
+964 silly addNameRange     '3.5.12',
+964 silly addNameRange     '4.0.0-alpha.1',
+964 silly addNameRange     '4.0.0-alpha.2',
+964 silly addNameRange     '4.0.0-alpha.3',
+964 silly addNameRange     '4.0.0-alpha.4',
+964 silly addNameRange     '4.0.0-alpha.5',
+964 silly addNameRange     '4.0.0-alpha.6',
+964 silly addNameRange     '4.0.0-alpha.7',
+964 silly addNameRange     '3.5.13',
+964 silly addNameRange     '4.0.0-alpha.9',
+964 silly addNameRange     '4.0.0-alpha.10',
+964 silly addNameRange     '4.0.0-alpha.11',
+964 silly addNameRange     '3.5.14',
+964 silly addNameRange     '4.0.0-alpha.12',
+964 silly addNameRange     '4.0.0-alpha.13',
+964 silly addNameRange     '4.0.0-alpha.14',
+964 silly addNameRange     '4.0.0-alpha.15',
+964 silly addNameRange     '3.5.15',
+964 silly addNameRange     '4.0.0-alpha.16',
+964 silly addNameRange     '4.0.0-alpha.17',
+964 silly addNameRange     '4.0.0-alpha.18',
+964 silly addNameRange     '3.5.16',
+964 silly addNameRange     '4.0.0-alpha.19',
+964 silly addNameRange     '4.0.0-alpha.20',
+964 silly addNameRange     '4.0.0-alpha.21',
+964 silly addNameRange     '4.0.0-alpha.22',
+964 silly addNameRange     '4.0.0-alpha.23',
+964 silly addNameRange     '4.0.0-alpha.24',
+964 silly addNameRange     '4.0.0-alpha.25',
+964 silly addNameRange     '4.0.0-alpha.26',
+964 silly addNameRange     '4.0.0-alpha.27',
+964 silly addNameRange     '4.0.0-alpha.28' ] ]
+965 silly addNamed d3@3.5.16
+966 verbose addNamed "3.5.16" is a plain semver version for d3
+967 silly mapToRegistry name d3
+968 silly mapToRegistry using default registry
+969 silly mapToRegistry registry https://registry.npmjs.org/
+970 silly mapToRegistry uri https://registry.npmjs.org/d3
+971 verbose addRemoteTarball https://registry.npmjs.org/d3/-/d3-3.5.16.tgz not in flight; adding
+972 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3/-/d3-3.5.16.tgz',
+972 verbose addRemoteTarball   'a518d6ced154a3078f2cb78ae1f8ad95342b2734' ]
+973 info retry fetch attempt 1 at 12:16:23 PM
+974 info attempt registry request try #1 at 12:16:23 PM
+975 http fetch GET https://registry.npmjs.org/d3/-/d3-3.5.16.tgz
+976 http 200 https://registry.npmjs.org/emissary
+977 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+977 verbose headers   etag: '"69VZDMIYNOBRCJYG1B7R3WCAB"',
+977 verbose headers   'content-type': 'application/json',
+977 verbose headers   'cache-control': 'max-age=300',
+977 verbose headers   'content-length': '54388',
+977 verbose headers   'accept-ranges': 'bytes',
+977 verbose headers   date: 'Mon, 21 Mar 2016 19:16:24 GMT',
+977 verbose headers   via: '1.1 varnish',
+977 verbose headers   age: '0',
+977 verbose headers   connection: 'keep-alive',
+977 verbose headers   'x-served-by': 'cache-sjc3134-SJC',
+977 verbose headers   'x-cache': 'HIT',
+977 verbose headers   'x-cache-hits': '1',
+977 verbose headers   'x-timer': 'S1458587783.995584,VS0,VE163',
+977 verbose headers   vary: 'Accept' }
+978 silly get cb [ 200,
+978 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+978 silly get     etag: '"69VZDMIYNOBRCJYG1B7R3WCAB"',
+978 silly get     'content-type': 'application/json',
+978 silly get     'cache-control': 'max-age=300',
+978 silly get     'content-length': '54388',
+978 silly get     'accept-ranges': 'bytes',
+978 silly get     date: 'Mon, 21 Mar 2016 19:16:24 GMT',
+978 silly get     via: '1.1 varnish',
+978 silly get     age: '0',
+978 silly get     connection: 'keep-alive',
+978 silly get     'x-served-by': 'cache-sjc3134-SJC',
+978 silly get     'x-cache': 'HIT',
+978 silly get     'x-cache-hits': '1',
+978 silly get     'x-timer': 'S1458587783.995584,VS0,VE163',
+978 silly get     vary: 'Accept' } ]
+979 verbose get saving emissary to /Users/swadmin/.npm/registry.npmjs.org/emissary/.cache.json
+980 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+981 silly addNameRange number 2 { name: 'emissary', range: '>=1.3.3 <2.0.0', hasData: true }
+982 silly addNameRange versions [ 'emissary',
+982 silly addNameRange   [ '0.1.0',
+982 silly addNameRange     '0.1.1',
+982 silly addNameRange     '0.2.0',
+982 silly addNameRange     '0.3.0',
+982 silly addNameRange     '0.4.0',
+982 silly addNameRange     '0.5.0',
+982 silly addNameRange     '0.6.0',
+982 silly addNameRange     '0.7.0',
+982 silly addNameRange     '0.8.0',
+982 silly addNameRange     '0.9.0',
+982 silly addNameRange     '0.10.0',
+982 silly addNameRange     '0.11.0',
+982 silly addNameRange     '0.12.0',
+982 silly addNameRange     '0.13.0',
+982 silly addNameRange     '0.14.0',
+982 silly addNameRange     '0.15.0',
+982 silly addNameRange     '0.16.0',
+982 silly addNameRange     '0.17.0',
+982 silly addNameRange     '0.18.0',
+982 silly addNameRange     '0.19.0',
+982 silly addNameRange     '0.20.0',
+982 silly addNameRange     '0.21.0',
+982 silly addNameRange     '0.22.0',
+982 silly addNameRange     '0.24.0',
+982 silly addNameRange     '0.25.0',
+982 silly addNameRange     '0.26.0',
+982 silly addNameRange     '0.27.0',
+982 silly addNameRange     '0.28.0',
+982 silly addNameRange     '0.29.0',
+982 silly addNameRange     '0.30.0',
+982 silly addNameRange     '0.31.0',
+982 silly addNameRange     '1.0.0',
+982 silly addNameRange     '1.1.0',
+982 silly addNameRange     '1.2.0',
+982 silly addNameRange     '1.2.1',
+982 silly addNameRange     '1.2.2',
+982 silly addNameRange     '1.3.0',
+982 silly addNameRange     '1.3.1',
+982 silly addNameRange     '1.3.2',
+982 silly addNameRange     '1.3.3' ] ]
+983 silly addNamed emissary@1.3.3
+984 verbose addNamed "1.3.3" is a plain semver version for emissary
+985 silly mapToRegistry name emissary
+986 silly mapToRegistry using default registry
+987 silly mapToRegistry registry https://registry.npmjs.org/
+988 silly mapToRegistry uri https://registry.npmjs.org/emissary
+989 verbose addRemoteTarball https://registry.npmjs.org/emissary/-/emissary-1.3.3.tgz not in flight; adding
+990 verbose addRemoteTarball [ 'https://registry.npmjs.org/emissary/-/emissary-1.3.3.tgz',
+990 verbose addRemoteTarball   'a618d92d682b232d31111dc3625a5df661799606' ]
+991 info retry fetch attempt 1 at 12:16:23 PM
+992 info attempt registry request try #1 at 12:16:23 PM
+993 http fetch GET https://registry.npmjs.org/emissary/-/emissary-1.3.3.tgz
+994 http fetch 200 https://registry.npmjs.org/fuzzaldrin/-/fuzzaldrin-2.1.0.tgz
+995 silly fetchAndShaCheck shasum 90204c3e2fdaa6941bb28d16645d418063a90e9b
+996 verbose addTmpTarball /var/folders/k6/5ykf99057j3bhmx8j3_yyjdw0000gn/T/npm-5205-ad6130c3/registry.npmjs.org/fuzzaldrin/-/fuzzaldrin-2.1.0.tgz not in flight; adding
+997 verbose addTmpTarball already have metadata; skipping unpack for fuzzaldrin@2.1.0
+998 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+999 silly cache afterAdd fuzzaldrin@2.1.0
+1000 verbose afterAdd /Users/swadmin/.npm/fuzzaldrin/2.1.0/package/package.json not in flight; writing
+1001 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+1002 verbose afterAdd /Users/swadmin/.npm/fuzzaldrin/2.1.0/package/package.json written
+1003 http fetch 200 https://registry.npmjs.org/glob-expand/-/glob-expand-0.0.2.tgz
+1004 silly fetchAndShaCheck shasum 00b11cb522f808c4d0364a5617e1b9f80488e5e8
+1005 verbose addTmpTarball /var/folders/k6/5ykf99057j3bhmx8j3_yyjdw0000gn/T/npm-5205-ad6130c3/registry.npmjs.org/glob-expand/-/glob-expand-0.0.2.tgz not in flight; adding
+1006 verbose addTmpTarball already have metadata; skipping unpack for glob-expand@0.0.2
+1007 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+1008 silly cache afterAdd glob-expand@0.0.2
+1009 verbose afterAdd /Users/swadmin/.npm/glob-expand/0.0.2/package/package.json not in flight; writing
+1010 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+1011 verbose afterAdd /Users/swadmin/.npm/glob-expand/0.0.2/package/package.json written
+1012 http fetch 200 https://registry.npmjs.org/basarat-text-buffer/-/basarat-text-buffer-6.0.0.tgz
+1013 silly fetchAndShaCheck shasum 19b578dae7c09b281244f5075a663bff2376889e
+1014 verbose addTmpTarball /var/folders/k6/5ykf99057j3bhmx8j3_yyjdw0000gn/T/npm-5205-ad6130c3/registry.npmjs.org/basarat-text-buffer/-/basarat-text-buffer-6.0.0.tgz not in flight; adding
+1015 verbose addTmpTarball already have metadata; skipping unpack for basarat-text-buffer@6.0.0
+1016 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+1017 silly cache afterAdd basarat-text-buffer@6.0.0
+1018 verbose afterAdd /Users/swadmin/.npm/basarat-text-buffer/6.0.0/package/package.json not in flight; writing
+1019 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+1020 verbose afterAdd /Users/swadmin/.npm/basarat-text-buffer/6.0.0/package/package.json written
+1021 http fetch 200 https://registry.npmjs.org/season/-/season-5.3.0.tgz
+1022 silly fetchAndShaCheck shasum 282d397e6416f44923287bd55450ad080b95db65
+1023 verbose addTmpTarball /var/folders/k6/5ykf99057j3bhmx8j3_yyjdw0000gn/T/npm-5205-ad6130c3/registry.npmjs.org/season/-/season-5.3.0.tgz not in flight; adding
+1024 verbose addTmpTarball already have metadata; skipping unpack for season@5.3.0
+1025 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+1026 silly cache afterAdd season@5.3.0
+1027 verbose afterAdd /Users/swadmin/.npm/season/5.3.0/package/package.json not in flight; writing
+1028 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+1029 verbose afterAdd /Users/swadmin/.npm/season/5.3.0/package/package.json written
+1030 http fetch 200 https://registry.npmjs.org/atom-space-pen-views/-/atom-space-pen-views-2.2.0.tgz
+1031 silly fetchAndShaCheck shasum a65b2c920ed02f724014fa7d3e5c3d78fbf59997
+1032 verbose addTmpTarball /var/folders/k6/5ykf99057j3bhmx8j3_yyjdw0000gn/T/npm-5205-ad6130c3/registry.npmjs.org/atom-space-pen-views/-/atom-space-pen-views-2.2.0.tgz not in flight; adding
+1033 verbose addTmpTarball already have metadata; skipping unpack for atom-space-pen-views@2.2.0
+1034 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+1035 silly cache afterAdd atom-space-pen-views@2.2.0
+1036 verbose afterAdd /Users/swadmin/.npm/atom-space-pen-views/2.2.0/package/package.json not in flight; writing
+1037 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+1038 verbose afterAdd /Users/swadmin/.npm/atom-space-pen-views/2.2.0/package/package.json written
+1039 http fetch 404 https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78
+1040 error fetch failed https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78
+1041 warn retry will retry, error on last attempt: Error: fetch failed with status code 404
+1042 http fetch 200 https://registry.npmjs.org/emissary/-/emissary-1.3.3.tgz
+1043 silly fetchAndShaCheck shasum a618d92d682b232d31111dc3625a5df661799606
+1044 verbose addTmpTarball /var/folders/k6/5ykf99057j3bhmx8j3_yyjdw0000gn/T/npm-5205-ad6130c3/registry.npmjs.org/emissary/-/emissary-1.3.3.tgz not in flight; adding
+1045 verbose addTmpTarball already have metadata; skipping unpack for emissary@1.3.3
+1046 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+1047 silly cache afterAdd emissary@1.3.3
+1048 verbose afterAdd /Users/swadmin/.npm/emissary/1.3.3/package/package.json not in flight; writing
+1049 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+1050 verbose afterAdd /Users/swadmin/.npm/emissary/1.3.3/package/package.json written
+1051 http fetch 200 https://registry.npmjs.org/d3/-/d3-3.5.16.tgz
+1052 silly fetchAndShaCheck shasum a518d6ced154a3078f2cb78ae1f8ad95342b2734
+1053 verbose addTmpTarball /var/folders/k6/5ykf99057j3bhmx8j3_yyjdw0000gn/T/npm-5205-ad6130c3/registry.npmjs.org/d3/-/d3-3.5.16.tgz not in flight; adding
+1054 verbose addTmpTarball already have metadata; skipping unpack for d3@3.5.16
+1055 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+1056 silly cache afterAdd d3@3.5.16
+1057 verbose afterAdd /Users/swadmin/.npm/d3/3.5.16/package/package.json not in flight; writing
+1058 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+1059 verbose afterAdd /Users/swadmin/.npm/d3/3.5.16/package/package.json written
+1060 http fetch 200 https://github.com/basarat/atom-package-dependencies/archive/cb1.tar.gz
+1061 silly fetchAndShaCheck shasum 09a8578e2ef91f2b2a7bbfedc653973b21075b96
+1062 verbose addTmpTarball /var/folders/k6/5ykf99057j3bhmx8j3_yyjdw0000gn/T/npm-5205-ad6130c3/github.com/basarat/atom-package-dependencies/archive/cb1.tar.gz not in flight; adding
+1063 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+1064 verbose addTmpTarball validating metadata from /var/folders/k6/5ykf99057j3bhmx8j3_yyjdw0000gn/T/npm-5205-ad6130c3/github.com/basarat/atom-package-dependencies/archive/cb1.tar.gz
+1065 verbose tar unpack /var/folders/k6/5ykf99057j3bhmx8j3_yyjdw0000gn/T/npm-5205-ad6130c3/github.com/basarat/atom-package-dependencies/archive/cb1.tar.gz
+1066 verbose tar unpacking to /var/folders/k6/5ykf99057j3bhmx8j3_yyjdw0000gn/T/npm-5205-ad6130c3/unpack-46fc4c7d41c9
+1067 silly gentlyRm /var/folders/k6/5ykf99057j3bhmx8j3_yyjdw0000gn/T/npm-5205-ad6130c3/unpack-46fc4c7d41c9 is being purged
+1068 verbose gentlyRm don't care about contents; nuking /var/folders/k6/5ykf99057j3bhmx8j3_yyjdw0000gn/T/npm-5205-ad6130c3/unpack-46fc4c7d41c9
+1069 silly gunzTarPerm modes [ '755', '644' ]
+1070 silly gunzTarPerm extractEntry
+1071 silly gunzTarPerm modified mode [ '', 509, 493 ]
+1072 silly gunzTarPerm extractEntry .gitignore
+1073 silly gunzTarPerm modified mode [ '.gitignore', 436, 420 ]
+1074 silly gunzTarPerm extractEntry README.md
+1075 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+1076 silly gunzTarPerm extractEntry index.js
+1077 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+1078 silly gunzTarPerm extractEntry package.json
+1079 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+1080 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+1081 silly cache afterAdd atom-package-dependencies@1.0.3
+1082 verbose afterAdd /Users/swadmin/.npm/atom-package-dependencies/1.0.3/package/package.json not in flight; writing
+1083 verbose correctMkdir /Users/swadmin/.npm correctMkdir not in flight; initializing
+1084 verbose afterAdd /Users/swadmin/.npm/atom-package-dependencies/1.0.3/package/package.json written
+1085 info retry fetch attempt 2 at 12:16:33 PM
+1086 info attempt registry request try #1 at 12:16:33 PM
+1087 http fetch GET https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78
+1088 http fetch 404 https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78
+1089 error fetch failed https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78
+1090 warn retry will retry, error on last attempt: Error: fetch failed with status code 404
+1091 info retry fetch attempt 3 at 12:17:34 PM
+1092 info attempt registry request try #1 at 12:17:34 PM
+1093 http fetch GET https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78
+1094 http fetch 404 https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78
+1095 error fetch failed https://github.com/Arnavion/typescript-github/tarball/2015-05-06-3d0daef8eb08104920f9272b32d414b9266a5d78
+1096 verbose about to build /Users/swadmin/Desktop/node-template/node_modules/atom-typescript
+1097 verbose unlock done using /Users/swadmin/.npm/_locks/atom-typescript-40fb3a5f97f9592c.lock for /Users/swadmin/Desktop/node-template/node_modules/atom-typescript
+1098 verbose stack Error: fetch failed with status code 404
+1098 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/fetch.js:51:14)
+1098 verbose stack     at emitOne (events.js:77:13)
+1098 verbose stack     at Request.emit (events.js:169:7)
+1098 verbose stack     at Request.onRequestResponse (/usr/local/lib/node_modules/npm/node_modules/request/request.js:952:10)
+1098 verbose stack     at emitOne (events.js:77:13)
+1098 verbose stack     at ClientRequest.emit (events.js:169:7)
+1098 verbose stack     at HTTPParser.parserOnIncomingClient (_http_client.js:419:21)
+1098 verbose stack     at HTTPParser.parserOnHeadersComplete (_http_common.js:103:23)
+1098 verbose stack     at TLSSocket.socketOnData (_http_client.js:309:20)
+1098 verbose stack     at emitOne (events.js:77:13)
+1099 verbose cwd /Users/swadmin/Desktop/node-template
+1100 error Darwin 13.4.0
+1101 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "atom-typescript"
+1102 error node v4.4.0
+1103 error npm  v2.14.20
+1104 error fetch failed with status code 404
+1105 error If you need help, you may report this error at:
+1105 error     <https://github.com/npm/npm/issues>
+1106 verbose exit [ 1, true ]
+1107 verbose unbuild node_modules/atom-typescript
+1108 info preuninstall atom-typescript@4.5.6
+1109 info uninstall atom-typescript@4.5.6
+1110 verbose unbuild rmStuff atom-typescript@4.5.6 from /Users/swadmin/Desktop/node-template/node_modules
+1111 silly gentlyRm /Users/swadmin/Desktop/node-template/node_modules/.bin/atbuild is being gently removed
+1112 silly gentlyRm verifying /Users/swadmin/Desktop/node-template is an npm working directory
+1113 silly gentlyRm containing path /Users/swadmin/Desktop/node-template is under npm's control, in /Users/swadmin/Desktop/node-template
+1114 silly gentlyRm deletion target /Users/swadmin/Desktop/node-template/node_modules/.bin/atbuild is under /Users/swadmin/Desktop/node-template
+1115 verbose gentlyRm vacuuming from /Users/swadmin/Desktop/node-template/node_modules/.bin/atbuild up to /Users/swadmin/Desktop/node-template
+1116 info postuninstall atom-typescript@4.5.6
+1117 silly gentlyRm /Users/swadmin/Desktop/node-template/node_modules/atom-typescript is being purged from base /Users/swadmin/Desktop/node-template
+1118 verbose gentlyRm don't care about contents; nuking /Users/swadmin/Desktop/node-template/node_modules/atom-typescript
+1119 silly vacuum-fs purging /Users/swadmin/Desktop/node-template/node_modules/atom-typescript
+1120 silly vacuum-fs quitting because other entries in /Users/swadmin/Desktop/node-template/node_modules
