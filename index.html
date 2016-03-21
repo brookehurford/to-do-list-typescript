@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="build/css/styles.css">
     <script type="text/javascript" src="build/js/app.js"></script>
     <title>Hello TypeScript!</title>
   </head>
   <body>
-    <h1>Typescript practice!!!</h1>
+    <div class="container">
+      <h1>To do list using Typescript</h1>
+      <hr>
+      <h3>Add tasks to your different to do lists!</h3>
+      <form id="toDoList">
+        <label for="task">Description</label>
+        <input type="text"></input>
+        <label for="priority">Priority</label>
+        <select>
+          <option>Low</option>
+          <option>Medium</option>
+          <option>High</option>
+        </select>
+        <label for="assignee">Assignee</label>
+        <input type="text"></input>
+        <button type="submit">Create Task</button>
+      </form>
+    </div>
   </body>
 </html>
